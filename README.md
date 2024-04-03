@@ -34,6 +34,43 @@ This dataset is motivated by the emerging trend of utilizing AI in automated IT 
 - **Expert-Reviewed**: To ensure the reliability of our evaluation, dozens of domain experts have manually reviewed our questions, providing a solid foundation for the benchmark's credibility.
 - **Open-Sourced and Dynamic Leaderboard**: We have open-sourced 20% of the test QA to facilitate preliminary evaluations by researchers. An online leaderboard, updated in real-time, captures the performance of emerging LLMs, ensuring the benchmark remains current and relevant.
 
+## Leaderboard
+
+### Wired Network Operations (English)
+
+| |Zero-shot              | | | |3-shot| | | | |
+|------|-----------------------|------|------|------|------|------|------|------|-------|
+|Models|Naïve                  |SC    |CoT   |CoT+SC|Naïve |SC    |CoT   |CoT+SC|Best Score|
+|✨ GPT-4|/                      |/     |/     |/     |/     |/     |88.70 |88.70 |88.70  |
+|✨ Yi-34B-Chat|57.75                  |59.14 |65.11 |68.79 |68.16 |68.37 |78.09 |80.06 |80.06  |
+|✨ Qwen-72B-Chat|70.41                  |70.50 |72.38 |72.56 |70.32 |70.32 |70.13 |70.22 |72.56  |
+|✨ GPT-3.5-turbo|66.60                  |66.80 |69.60 |72.00 |68.30 |68.30 |70.90 |72.50 |72.50  |
+|✨ ERNIE-Bot-4.0|61.15                  |61.15 |70.00 |70.00 |60.00 |60.00 |70.00 |70.00 |70.00  |
+|✨ Qwen1.5-14B-Chat|54.90                  |56.44 |64.09 |67.10 |52.23 |53.52 |59.54 |64.18 |67.10  |
+|✨ Qwen1.5-14B-Base|34.88                  |34.88 |60.82 |60.82 |65.55 |65.55 |47.08 |47.08 |65.55  |
+|✨ DevOps-Model-14B-Chat|30.69                  |30.59 |55.77 |63.63 |63.85 |61.96 |41.15 |44.01 |63.85  |
+|✨ Qwen-14B-Chat|43.78                  |47.81 |56.58 |59.40 |62.09 |59.70 |49.06 |55.88 |62.09  |
+|✨ LLaMA-2-13B|41.80                  |46.50 |53.10 |58.70 |53.30 |53.00 |56.80 |61.00 |61.00  |
+|✨ InternLM2-Chat-20B|56.36                  |56.36 |26.18 |26.18 |60.48 |60.48 |45.10 |45.10 |60.48  |
+|✨ LLaMA-2-70B-Chat|25.29                  |25.29 |57.97 |58.06 |52.97 |52.97 |58.55 |58.55 |58.55  |
+|✨ InternLM2-Chat-7B|49.74                  |49.74 |56.19 |56.19 |48.20 |48.20 |49.74 |49.74 |56.19  |
+|✨ LLaMA-2-7B|39.50                  |40.00 |45.40 |49.50 |48.20 |46.80 |52.00 |55.20 |55.20  |
+|✨ Qwen-7B-Chat|45.90                  |46.00 |47.30 |50.10 |52.10 |51.00 |48.30 |49.80 |52.10  |
+|✨ Gemma_7B|25.09                  |25.09 |50.86 |50.86 |30.24 |30.24 |51.56 |51.56 |51.56  |
+|✨ InternLM-7B|38.70                  |38.70 |43.90 |43.90 |45.20 |45.20 |51.40 |51.40 |51.40  |
+|✨ Chinese-Alpaca-2-13B|37.70                  |37.70 |49.70 |49.70 |48.60 |48.60 |50.50 |50.50 |50.50  |
+|✨ Mistral-7B|29.27                  |29.27 |46.30 |46.30 |47.22 |47.22 |45.58 |45.58 |47.22  |
+|✨ AquilaChat2-34B|36.63                  |36.63 |44.83 |44.83 |46.65 |46.65 |NULL  |NULL  |46.65  |
+|✨ ChatGLM3-6B|43.38                  |43.38 |44.59 |44.59 |42.10 |42.10 |43.47 |43.47 |44.59  |
+|✨ ChatGLM2-6B|24.80                  |24.70 |36.60 |36.50 |37.60 |37.60 |40.50 |40.50 |40.50  |
+|✨ Chinese-LLaMA-2-13B|29.40                  |29.40 |37.80 |37.80 |40.40 |40.40 |28.80 |28.80 |40.40  |
+|✨ Gemma_2B|26.46                  |26.46 |33.42 |33.42 |26.63 |26.63 |37.54 |37.54 |37.54  |
+|✨ Baichuan-13B-Chat|18.30                  |20.40 |28.60 |37.00 |24.10 |26.70 |18.20 |17.80 |37.00  |
+|✨ Baichuan2-13B-Chat|14.10                  |15.30 |24.10 |25.80 |32.30 |33.10 |25.60 |27.70 |33.10  |
+
+
+> For more leaderboard results, please checkout the [leaderboard folder](./leaderboard/) in this repository.
+
 ## Dataset Structure
 
 Here is a brief overview of the dataset structure:
