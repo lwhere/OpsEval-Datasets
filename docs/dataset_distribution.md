@@ -45,3 +45,12 @@
 | Company Materials (CM)    | 4197 / 5121                   | Medium           |
 | Automated Generation (AG) | 154 / 154                     | Low              |
 | **Total**                  | **8920 / 9844**               |                  |
+
+
+**Operations Textbooks (OT)**: Peer-reviewed and typically written by experts in the field, ensuring accuracy and reliability of the content.
+
+**Certification Exams (CE)**: Rigorous standards in their development process, which usually involves validation by subject matter experts to ensure relevance and correctness.
+
+**Company Materials (CM)**: Crafted from real-world company data, might not always go through a stringent peer review process and can be biased towards the company's specific practices or products.
+
+**Automated Generation (AG)**: Produced by model which may not always accurately interpret or present information, leading to potential errors and bias.
