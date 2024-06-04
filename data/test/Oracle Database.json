@@ -175,7 +175,7 @@
     },
     {
         "question": "76 Which three are performed by Oracle Automatic Storage Management(ASM)instances?\nA.  mounting disk groups\nB.  managing Allocation Units (AUS)for disk group content\nC.  managing extent allocation for Oracle database segments\nD.  acting as an I/O server to read data file blocks from ASM disks on behalf of database server\nprocesses\nE.  acting as an I/O server to write data file blocks to ASM disks on behalf of Database Writer\nprocesses(DBWR)\nF.  managing space allocation for Oracle ASM files",
-        "answer": "A,D,E,\n",
+        "answer": "A,D,E",
         "solution": "",
         "id": "Oracle Database-34"
     },

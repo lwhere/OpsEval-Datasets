@@ -1081,7 +1081,7 @@
         "solution": ""
     },
     {
-        "answer": "b",
+        "answer": "B",
         "question": "SNMP是基于( ) 协议的\nA. TCP\nB. UDP\nC. HTTP\nD. ARP",
         "id": "Log Analysis-212",
         "solution": ""
@@ -1543,7 +1543,7 @@
         "solution": ""
     },
     {
-        "answer": "ac",
+        "answer": "AC",
         "question": "在日志采集过程中，采用正则表达式进行日志解析的工具是？\nA. Logstash\nB. Fluentd\nC. rizhiyi\nD. syslog-ng",
         "id": "Log Analysis-289",
         "solution": ""

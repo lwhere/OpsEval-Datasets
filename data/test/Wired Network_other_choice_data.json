@@ -1,0 +1,1 @@
+[{"id": "Wired Network-888", "type": 1, "question": "Cisco ASA支持以下哪些类型的日志记录？（选择所有适用项。）", "choices": ["控制台日志记录", "终端日志记录", "ASDM日志记录", "电子邮件记录", "外部 syslog 服务器日志记录。"], "answer": "A,B,C,D,E", "solution": "所有这些日志记录功能都受到Cisco ASA的支持。", "topic": ["网络和主机遥测"]}]

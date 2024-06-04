@@ -1,0 +1,20 @@
+[
+    {
+        "question": "以下哪三个陈述关于Oracle数据库中的视图是正确的？\nA. 数据操作语言（DML）总是可以在视图上使用。\nB. 使用包含GROUP BY子句的定义查询的视图删除一个或多个行将导致错误。\nC. WITH CHECK子句可以防止在查询视图时显示某些行。\nD. WITH CHECK子句可以防止某些行被更新或插入。\nE. 使用包含GROUP BY子句的定义查询的视图插入一个或多个行将导致错误。\nF. 可以在不需要重新授予视图权限的情况下更新视图。\nG. 视图定义查询中的表必须始终存在才能创建视图。",
+        "answer": "B,E,G",
+        "solution": "",
+        "id": "Oracle Database-227"
+    },
+    {
+        "question": "以下哪四个关于Oracle表的约束条件是正确的？\nA. UNIQUE约束可以使用已有的索引来约束列或多列。\nB. UNIQUE约束允许NULL值。\nC. NOT NULL约束可以在表级别定义。\nD. CHECK约束可以引用其他行中的值。\nE. FOREIGN KEY列可以包含NULL值。\nF. PRIMARY KEY约束可以在表已创建并填充数据后添加。\nG. 一列只能有一个CHECK约束。",
+        "answer": "B,E,F,G",
+        "solution": "",
+        "id": "Oracle Database-378"
+    },
+    {
+        "question": "16、关于使用RMAN恢复表格，哪三个选项是正确的？\nA. RMAN可以恢复SYSAUX表空间中的表格\nB. RMAN总是使用辅助实例\nC. RMAN可以在DDL操作修改表结构后恢复表格\nD. RMAN可以恢复sys用户拥有的表格\nE. RMAN可以恢复SYSTEM表空间中的表格\nF. RMAN可以在备用数据库中恢复表格\nG. RMAN可以恢复SYSTEM用户拥有的表格。",
+        "answer": "B,C,G",
+        "solution": "",
+        "id": "Oracle Database-388"
+    }
+]

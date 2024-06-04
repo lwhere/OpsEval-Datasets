@@ -1,5 +1,3 @@
-
-
 screening_prompt = """
 I need your help in analyzing a multi-choice question, determine the domain and the task type it belongs to.
 Domains:
