@@ -1,0 +1,612 @@
+[
+    {
+        "question": "\"1. Which of the following is not a shutdown mode for Oracle database?\nA. Shutdown immediate\nB. Shutdown abort\nC. Shutdown transactional\nD. Shutdown poweroff\"",
+        "answer": "D",
+        "solution": "",
+        "id": "Oracle Database-55",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "The STORES table has a column START_DATE of data type DATE, containing the date the row was \ninserteD.\nYou only want to display details of rows where START_DATE is within the last 25 months.\nWhich WHERE clause can be used?\nA.  WHERE MONTHS_BETWEEN (SYSDATE, start_datE.  <= 25\nB.  WHERE ADD_MONTHS (start_date, 25) <= SYSDATE\nC.  WHERE TO_NUMBER(start_date - SYSDATE.  <= 25\nD.  WHERE MONTHS_BETWEEN(start_date, SYSDATE.  <= 25",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-58",
+        "llama3-8b-answer": "D",
+        "gemma-7b-answer": "A. WHERE MONTHS_BETWEEN (SYSDATE, start_date) <= 25",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "\"To update the current row in a cursor result set, you should use the clause:\nA. WHERE CURRENT OF\nB. FOR UPDATE\nC. FOR DELETE\nD. FOR MODIFY\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-61",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"60. To view the current value of sequence DEPT_DEPTNO, which pseudocolumn should be used?\nA. CURRVAL\nB. NEXTVAL\nC. MAXVAL\nD. MINVAL\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-70",
+        "llama3-8b-answer": "B. NEXTVAL",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "\"68. Which statement can directly call a procedure in SQL*Plus?\nA. RETURN\nB. CALL\nC. SET\nD. EXEC\"",
+        "answer": "D",
+        "solution": "",
+        "id": "Oracle Database-71",
+        "llama3-8b-answer": "D. EXEC",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"39. Which of the following statements about ROWNUM is correct?\nA. ROWNUM is a column that actually exists in each table.\nB. ROWNUM is a row number assigned to each row of data after each query is executed, starting from 0.\nC. Any arithmetic operator can be used when ROWNUM is used as a conditional expression.\nD. ROWNUM is often used for pagination queries.\"",
+        "answer": "D",
+        "solution": "",
+        "id": "Oracle Database-72",
+        "llama3-8b-answer": "D",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"45. The structure of the STUDENT_GRADES table is as follows: STUDENT_ID NUMBER(12), SEMESTER_END DATE, GPA NUMBER(4,3). Display STUDENT_ID, SEMESTER_END, and GPA, sorted first by semester_end in ascending order, and then by GPA in descending order. \nA. SELECT student_id, semester_end, gpa FROM student_grades ORDER BY semester_end DESC, gpa DESC;\nB. SELECT student_id, semester_end, gpa FROM student_grades ORDER BY semester_end ASC, gpa ASC;\nC. SELECT student_id, semester_end, gpa FROM student_grades ORDER BY semester_end, gpa DESC;\nD. SELECT student_id, semester_end, gpa FROM student_grades ORDER BY gpa DESC, semester_end DESC;\nE. SELECT student_id, semester_end, gpa FROM student_grades ORDER BY gpa DESC, semester_end ASC;\"",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-74",
+        "llama3-8b-answer": "D.",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "\"52. View ANN_SAL is based on the employee table, and the structure of the view is as follows: NAME NULL TYPE EMPNO NOT NULL NUMBER(4) YEARLY_SAL NUMBER(9,2) MONTHLY_SAL NUMBER(9,2). Which statement can retrieve data from the view ANN_SAL?\nA. SELECT * FROM ANN_SAL\nB. SELECT * FROM EMPLOYEE\nC. SELECT * FROM VIEW ANN_SAL\nD. SELECT * FROM VIEW ANN_SAL IS DON EMPLOYEE\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-75",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"101. Which one should be the expected state of a Data Guard standby database?\nA. Open & READ ONLY WITH APPLYING\nB. Mounted & READ ONLY WITH APPLYING\nC. Mounted & READ ONLY\nD. Open & READ ONLY\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-78",
+        "llama3-8b-answer": "A. Open & READ ONLY WITH APPLYING",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"16. Connect to a certain PDB database (ERP1) using sys and issue the following authorization command: Grant create session to abc container=all; Which of the following statements is correct?\nA. This authorization will result in an error.\nB. This authorization only takes effect within ERP1.\nC. This authorization only takes effect within the root container CDB$ROOT.\nD. This authorization takes effect in both ERP1 and CDB$ROOT.\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-80",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "You execute this query: \nSELECT TO_CHAR (NEXT_DAY (LAST_DAY (SYSDATE. , 'MON') , 'dd \"Monday for\" fmMonth rrrr' )\n FROM DUAL;\nWhat is the result?\nA.  It executes successfully but does not return any result.\nB.  It generates an error.\nC.  It returns the date for the first Monday of the next month.\nD.  It returns the date for the last Monday of the current month.",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-82",
+        "llama3-8b-answer": "D",
+        "gemma-7b-answer": "**C.**\n\n\u8be5\u67e5\u8be2\u7684\u76ee\u7684\u662f\u8fd4\u56de\u4e0b\u6708\u7b2c\u4e00\u4e2a\u661f\u671f\u4e00\u65e5\u671f\u3002",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "\"107. When creating a user in Oracle, if the DEFAULT TABLESPACE keyword is not mentioned, Oracle will allocate a tablespace to the user as the default tablespace.\nA. HR\nB. SCOTT\nC. SYSTEM\nD. SYS\"",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-86",
+        "llama3-8b-answer": "C. SYSTEM",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"4. Which of the following is not a state of the online log group?\nA. UNUSED\nB. NOACTIVE\nC. INACTIVE\nD. ACTIVEE.CURRENT\"",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-89",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"44. The table structure of EMP is as follows: ENAME VARCHAR2(35) SALARY NUMBER(8,2) HIRE_DATE DATE Which sentence lists employees who have worked for more than five years in the company?\nA. SELECT ENAME FROM EMP WHERE SYSDATE-HIRE_DATE > 5;\nB. SELECT ENAME FROM EMP WHERE HIRE_DATE-SYSDATE > 5;\nC. SELECT ENAME FROM EMP WHERE (SYSDATE-HIRE_DATE) /365 > 5;\nD. SELECT ENAME FROM EMP WHERE (SYSDATE-HIRE_DATE) * 365 > 5;\"",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-94",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "\"57. Which of the following statements about null values is correct?\nA. Any arithmetic expression that contains a null value results in a null value.\nB. The concatenation of a string that contains a null value with an empty string results in a null value.\nC. The syntax for using null values as a condition is to write: field = null.\nD. If the table Emp has 5 records with empID values of 1, 2, 3, 4, and 5, then the query Select * from Emp where empID not in (2, 3, 4, null) will result in 2 records.\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-96",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"131. The database operated in non-archival logging mode has been disabled.\nA. Archival logging\nB. Online logging\nC. Log writing program\nD. Log file\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-98",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "The CUSTOMERS table has a CUST_LAST_NAME column of data type VARCHAR2.\nThe table has two rows whose COST_LAST_MANE values are Anderson and Ausson. \nWhich query produces output for CUST_LAST_SAME containing Order for the first \nrow and Aus for the second?\nA.  SELECT REPLACE (REPLACE(cust_last_name,'son',''),'An','O') FROM customers;\nB.  SELECT REPLACE (TRIM(TRALING 'son' FROM cust_last_namE. , 'An','O') FROM \ncustomers;\nC.  SELECT INITCAP (REPLACE(TRIM('son' FROM cust_last_namE. ,'An','O')) FROM \ncustomers;\nD.  SELECT REPLACE (SUBSTR(cust_last_name,-3), 'An', 'O') FROM customers;",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-101",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "Examine the description of the EMPLOYEES table:\nName Null? Type\n-------------------------------------------------------------\nEMPLOYEE_ID NOT NULL NUMBER(4)\nEMPLOYEE_NAME NOT NULL VARCHAR2 (100)\nSALARY NOT NULL NUMBER(6,2) .\nDEPARTMENT_ID NOT NULL NUMBER(4)\nWhich statement will fail?\nA.  SELECT department_id, COUNT(*)\nFROM employees\nWHERE department_id <> 90\nHAVING COUNT(*) >= 3\nGROUP BY department_id;\nB.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id <> 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\nC.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id < 90\nGROUP BY department_id\nHAVING COUNT(*) >= 3;\nD.  SELECT department_id, COUNT (*)\nFROM employees\nHAVING department_id < 90\nAND COUNT(*) >= 3\nGROUP BY department_id;",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-108",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "146. How to enable password verification function?\nA. Use ORAPWD application\nB. Execute catproC.sql script in SYS mode\nC. Execute utlpwdmG.sql script in SYS mode\nD. Set the PASSWORD_VERIFY initialization parameter to TRUE.",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-120",
+        "llama3-8b-answer": "C.",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"Segment is a logical storage structure in a tablespace, and the following is not a segment type used by ORACLE database.\n(A. Index segment (B. Temporary segment (C. Rollback segment (D. Code segment)\"",
+        "answer": "D",
+        "solution": "",
+        "id": "Oracle Database-121",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "(D)",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "\"70. Which of the following locking modes does not belong to Oracle?\nA. Deadlock B. Exclusive lock C. Row-level shared lock D. Shared lock\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-130",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "\"112. Locks are used to lock tables, allowing other users to query rows in the table and lock the table, but not allowing insertion, updating, and deleting of rows.\nA. Row shared B. Row exclusive C. Shared D. Exclusive\"",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-131",
+        "llama3-8b-answer": "C. Shared",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"57. Which of the following statements about null values is correct?\nA. Any arithmetic expression that contains a null value results in a null value.\nB. The concatenation of a string that contains a null value with an empty string results in a null value.\nC. The syntax for using null values as a condition is to write: field = null.\nD. If the table Emp has 5 records with empID values of 1, 2, 3, 4, and 5, then the query Select * from Emp where empID not in (2, 3, 4, null) will result in 2 records.\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-143",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"52. View ANN_SAL is based on the employee table, and the structure of the view is as follows: NAME NULL TYPE EMPNO NOT NULL NUMBER(4) YEARLY_SAL NUMBER(9,2) MONTHLY_SAL NUMBER(9,2). Which statement can retrieve data from the view ANN_SAL?\nA. SELECT * FROM ANN_SAL\nB. SELECT * FROM EMPLOYEE\nC. SELECT * FROM VIEW ANN_SAL\nD. SELECT * FROM VIEW ANN_SAL IS DON EMPLOYEE\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-158",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "Choose the best answer\nExamine these statements and results:\nSQL> SELECT COUNT(*) FROM emp;\nCOUNT (*)\n--------------------\n14\nSQL> CREATE GLOBAL TEMPORARY TABLE t_emp AS SELECT * FROM emp;\nTable createD.\nSQL> INSERT INTO t_emp SELECT * FROM emp;\n14 rows createD.\nSQL> COMMIT;\nCommit completE.\nSQL> INSERT INTO t_emp SELECT * FROM emp;\n14 rows createD.\nSQL> SELECT COUNT(*) FROM t_emp;\nHow many rows are retrieved by the last query?\nA.  0\nB.  14\nC.  28\nD.  42",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-170",
+        "llama3-8b-answer": "C. 28",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "\"71. The string data \"test\" is stored in fields of type char(10) and varchar2(10), with actual storage lengths of:\nA. 10 4\nB. 4 4\nC. 10 10\nD. 4 10\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-177",
+        "llama3-8b-answer": "B. 4 4",
+        "gemma-7b-answer": "A. 10 4",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "\"156. What is the relationship between database system (DBS), database management system (DBMS), and database (DB)?\nA. DBS includes DB and DBMS.\nB. DBMS includes DB and DBS.\nC. DB includes DBS and DBMS.\nD. DBS is the same as DB, which is also DBMS.\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-184",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "97.\u5206\u6790\u4ee5\u4e0b\u6210\u529f\u6267\u884c\u7684\u8bed\u53e5\uff1a\nCREATE TABLE rental (\nrental id int unsigned NOT NULL AUTO INCREMENT,\nrental date datetime NOT NULL,\ninventory id int unsigned NoT NULL,\ncustomer id int unsigned NOT NULL,\nreturn date datetime DEFAULT NULL,\nstaff id int unsigned NoT NULL,\nIast update timestamp NOT NULL DEFAULT CURRENT TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\nPRIMARY KEY (rental iD. \nENGINE-InnoDB;\n\u73b0\u5728\uff0c\u68c0\u67e5\u4ee5\u4e0b\u67e5\u8be2\uff1a\nSELECT rental_id,customer_id\nFROM rental\nwhere rental_date between now() - interval 1 month and now()\nAND inventory_id=42\nAND staff_id=1024;\n\u60a8\u5e0c\u671b\u6dfb\u52a0\u4e00\u4e2a\u6216\u591a\u4e2a\u7d22\u5f15\uff0c\u6700\u5927\u7a0b\u5ea6\u5730\u51cf\u5c11\u67e5\u8be2\u5de5\u4f5c\u91cf\u3002\n\u4ee5\u4e0b\u54ea\u6761\u8bed\u53e5\u53ef\u5b8c\u6210\u6b64\u4efb\u52a1\uff1f\nA.  ALTER TABLE rental\nADD INDEx(inventory_iD. ,\nADD INDEX (staff_iD. \nADD INDEX (rental_datE. ,\nADD INDEx (customer_iD. ;\nB. ALTER TABLE rental\nADD INDEx (inventory_id, staff_id,rental_date,customer_iD. ;\nC.  ALTER TABLE rental\nADD INDEx (inventory_id,staff_id customer_id, rental_id, rental_datE. ;\nD.  ALTER TABLE rental\nADD INDEX (inventory_iD. ,\nADD INDEX (staff_iD. \nADD INDEX (rental_datE. :\nE.  ALTER TABLE rental\nADD INDEx (rental_date,inventory_id, staff_id, customer_iD. ;\nF.  ALTER TABLE rental ADD INDEX (inventory_id,staff_id,rental_datE. ;",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-251",
+        "llama3-8b-answer": "E.",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "132.\u4ee5\u4e0b\u54ea\u79cd\u5907\u4efd\u65b9\u5f0f\u9700\u8981\u5728\u5b8c\u5168\u5173\u95ed\u6570\u636e\u5e93\u8fdb\u884c \u3002\nA.\u65e0\u5f52\u6863\u65e5\u5fd7\u6a21\u5f0f\u4e0b\u7684\u6570\u636e\u5e93\u5907\u4efd\nB.\u5f52\u6863\u65e5\u5fd7\u6a21\u5f0f\u4e0b\u7684\u6570\u636e\u5e93\u5907\u4efd\nC.\u4f7f\u7528\u5bfc\u51fa\u5b9e\u7528\u7a0b\u5e8f\u8fdb\u884c\u903b\u8f91\u5907\u4efd\nD.\u4ee5\u4e0a\u90fd\u4e0d\u5bf9",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-252",
+        "llama3-8b-answer": "B.",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "\u5173\u4e8e\u590d\u5408\u67e5\u8be2\u4e2d\u4f7f\u7528\u7684INTERSECT\u8fd0\u7b97\u7b26\uff0c\u54ea\u4e2a\u9648\u8ff0\u662f\u6b63\u786e\u7684\uff1f\nA. \u5b83\u5ffd\u7565NULL\u503c\u3002\nB. INTERSECT\u7684\u4f18\u5148\u7ea7\u4f4e\u4e8eUNION\u6216UNION ALL\u3002\nC. \u540c\u4e00SQL\u8bed\u53e5\u4e2d\u4e0d\u53ef\u80fd\u6709\u591a\u4e2aINTERSECT\u8fd0\u7b97\u7b26\u3002\nD. \u5b83\u5904\u7406\u6240\u9009\u5217\u4e2d\u7684NULL\u503c\u3002",
+        "answer": "D",
+        "solution": "",
+        "id": "Oracle Database-254",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "\"\u68c0\u67e5EMPLOYEES\u8868\u7684\u63cf\u8ff0\uff1a\n\u540d\u79f0 Null? \u7c7b\u578b\n-------------------------------------------------- ----------\nEMPLOYEE_ID NOT NULL NUMBER(4)\nEMPLOYEE_NAME NOT NULL VARCHAR2 (100)\nSALARY NOT NULL NUMBER(6,2)\u3002\nDEPARTMENT_ID NOT NULL NUMBER(4)\n\u54ea\u4e2a\u8bed\u53e5\u4f1a\u5931\u8d25\uff1f\nA.  SELECT department_id, COUNT(*)\nFROM employees\nWHERE department_id <> 90\nHAVING COUNT(*) >= 3\nGROUP BY department_id;\nB.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id <> 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\nC.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id < 90\nGROUP BY department_id\nHAVING COUNT(*) >= 3;\nD.  SELECT department_id, COUNT (*)\nFROM employees\nHAVING department_id < 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\"",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-260",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "154.\u4e0b\u5217\u53d9\u8ff0\u4e2d\u6b63\u786e\u7684\u662f\u3002\nA.\u6570\u636e\u5e93\u662f\u4e00\u4e2a\u72ec\u7acb\u7684\u7cfb\u7edf\uff0c\u4e0d\u9700\u8981\u64cd\u4f5c\u7cfb\u7edf\u7684\u652f\u6301\nB.\u6570\u636e\u5e93\u8bbe\u8ba1\u662f\u6307\u8bbe\u8ba1\u6570\u636e\u5e93\u7ba1\u7406\u7cfb\u7edf\nC.\u6570\u636e\u5e93\u6280\u672f\u7684\u6839\u672c\u76ee\u6807\u662f\u8981\u89e3\u51b3\u6570\u636e\u5171\u4eab\u7684\u95ee\u9898\nD.\u6570\u636e\u5e93\u7cfb\u7edf\u4e2d\uff0c\u6570\u636e\u7684\u7269\u7406\u7ed3\u6784\u5fc5\u987b\u4e0e\u903b\u8f91\u7ed3\u6784\u4e00\u81f4",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-264",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "9.\u4e0b\u5217\u5173\u4e8e\u8fd8\u539f\u4e0e\u6062\u590d\u8bf4\u6cd5\u6b63\u786e\u7684\u662f\uff1f\nA.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u65e0\u6cd5\u8fd8\u539f\u6570\u636e\u5e93\nB.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93\nC.\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ea\u80fd\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u65e0\u6cd5\u6062\u590d\u6570\u636e\u5e93\nD.\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u65e2\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93",
+        "answer": "D",
+        "solution": "",
+        "id": "Oracle Database-268",
+        "llama3-8b-answer": "B.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "95\u3001\u68c0\u67e5\u4ee5\u4e0b\u914d\u7f6e\uff1a\n1. cdb1\u662f\u4e00\u4e2a\u5bb9\u5668\u6570\u636e\u5e93\u3002\n2. \u5728CDB1\u4e2d\u6709\u591a\u4e2a\u53ef\u63d2\u5165\u6570\u636e\u5e93\uff08PDBS\uff09\u3002\n5. \u6bcf\u4e2aPDB\u90fd\u6709\u591a\u4e2a\u5e26\u6709\u5f15\u7528\u5b8c\u6574\u6027\u7ea6\u675f\u7684\u8868\u3002\n6. FLASHBACK DATABASE\u5df2\u5f00\u542f\u3002\n7. UNDO RETENTION GUARANTEE\u5df2\u542f\u7528\u3002\n\u5728\u6240\u6709PDBS\u4e2d\u8fdb\u884c\u4e86\u591a\u4e2a\u4e0d\u9700\u8981\u7684\u591a\u8868\u66f4\u6539\u3002\u4f7f\u7528\u54ea\u79cd\u65b9\u6cd5\u53ef\u4ee5\u4f7f\u7528\u5355\u4e2a\u547d\u4ee4\u64a4\u6d88\u66f4\u6539\uff1f\nA. \u95ea\u56de\u6570\u636e\u5e93\nB. \u95ea\u56de\u8868\u548c\u4e8b\u52a1\nC. \u95ea\u56de\u4e8b\u52a1\nD. \u95ea\u56de\u8868\nE. \u6062\u590d\u548c\u6062\u590d\u6570\u636e\u5e93",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-276",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "23.\u5728Windows\u64cd\u4f5c\u7cfb\u7edf\u4e2d\uff0cOracle\u7684 \u670d\u52a1\u662f\u4f7f\u7528iSQL*Plus\u5fc5\u987b\u7684\u3002\nA.OracleHOME_NAMETNSListener\nB.OracleServiceSID\nC.OracleHOME_NAMEAgent\nD.OracleHOME_NAMEHTTPServer",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-277",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"\u9009\u62e9\u6700\u4f73\u7b54\u6848\n\u60a8\u60f3\u7f16\u5199\u4e00\u4e2a\u67e5\u8be2\uff0c\u6bcf\u6b21\u5728\u4f1a\u8bdd\u4e2d\u6267\u884c\u65f6\u63d0\u793a\u4e24\u4e2a\u5217\u540d\u548cWHERE\u6761\u4ef6\uff0c\u4f46\u4ec5\u5728\u7b2c\u4e00\u6b21\u6267\u884c\u65f6\u63d0\u793a\u8868\u540d\u3002\n\u60a8\u67e5\u8be2\u4e2d\u4f7f\u7528\u7684\u53d8\u91cf\u5728\u4f1a\u8bdd\u4e2d\u4ece\u672a\u672a\u5b9a\u4e49\u3002\n\u54ea\u4e2a\u67e5\u8be2\u53ef\u4ee5\u4f7f\u7528\uff1f\nA.  SELECT &col1, &col2\nFROM &&table\nWHERE &condition:\nB.  SELECT &col1,&scol2\nFROM \"&table\"\nWHERE &condition;\nC.  SELECT &&col1, &&col2\nFROM &table\nWHERE &&condition = &&cond;\nD.  SEIECT '&&col1', '&&col2'\nFROM &table\nWHERE '&&condition' = '&cond';\nE.  SELECT &&col1, &&col2\nFROM &table\nWHERE &&condition;\"",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-280",
+        "llama3-8b-answer": "A.  SELECT &col1, &col2\nFROM &&table\nWHERE &condition",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "17.\u5f53Oracle\u670d\u52a1\u5668\u542f\u52a8\u65f6\uff0c\u4e0b\u5217\u54ea\u79cd\u6587\u4ef6\u4e0d\u662f\u5fc5\u987b\u7684\nA.\u6570\u636e\u6587\u4ef6\nB.\u63a7\u5236\u6587\u4ef6\nC.\u65e5\u5fd7\u6587\u4ef6\nD.\u5f52\u6863\u65e5\u5fd7\u6587\u4ef6",
+        "answer": "D",
+        "solution": "",
+        "id": "Oracle Database-281",
+        "llama3-8b-answer": "D",
+        "gemma-7b-answer": "A\n\n\u6570\u636e\u6587\u4ef6\uff08data file\uff09\u5728Oracle\u670d\u52a1\u5668\u542f\u52a8\u65f6\u662f\u5fc5\u987b\u7684\uff0c\u800c\u63a7\u5236\u6587\u4ef6\uff08control file\uff09\u3001\u65e5\u5fd7\u6587\u4ef6\u548c\u5f52\u6863\u65e5\u5fd7\u6587\u4ef6\u662f\u53ef\u9009\u7684\u3002",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "84.\u5728 Oracle \u6570\u636e\u5e93\u7684\u903b\u8f91\u7ed3\u6784\u4e2d\u6709\u4ee5\u4e0b\u7ec4\u4ef6\uff1a A \u8868\u7a7a\u95f4 B \u6570\u636e\u5757 C \u533a D \u6bb5.\u8fd9\u4e9b\u7ec4\u4ef6\u4ece\u5927\u5230\u5c0f\u4f9d\u6b21\u662f\u3002\nA.A\u2192B\u2192C\u2192D\nB.A\u2192D\u2192C\u2192B\nC.A\u2192C\u2192B\u2192D\nD.D\u2192A\u2192C\u2192B",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-282",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\u54ea\u4e2a\u8bed\u53e5\u5c06\u8fd4\u56de EMP_SEQ \u5e8f\u5217\u751f\u6210\u7684\u6700\u540e\u4e00\u4e2a\u5e8f\u5217\u53f7\uff1f\nA.  SELECT emp_seq. CURRVAL FROM DUAL;\nB.  SELECT CURRVAL FROM emp_seq;\nC.  SELECT NEXTVAL FROM emp_seq;\nD.  SELECT emp_seq . NEXTVAL FROM DUAL;",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-284",
+        "llama3-8b-answer": "A.",
+        "gemma-7b-answer": "**C**",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "70.\u4e0b\u5217\u54ea\u4e00\u4e2a\u9501\u6a21\u5f0f\u4e0d\u5c5e\u4e8e Oracle\u3002\nA.\u6b7b\u9501 B.\u6392\u4ed6\u9501 C.\u884c\u7ea7\u5171\u4eab\u9501 D.\u5171\u4eab\u9501",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-285",
+        "llama3-8b-answer": "D",
+        "gemma-7b-answer": "A\n\n\u6b7b\u9501\u4e0d\u662f Oracle \u4e2d\u7684\u9501\u6a21\u5f0f\u3002",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "184.\u68c0\u67e5\u4e0b\u5217 SQL \u8bed\u6cd5\uff1a \u7528 PRODUCTS \u8868\uff0c\u4f60\u9700\u8981\u751f\u6210\u540d\u5b57\uff0c\u5f53\u524d\u4ef7\u683c\u5217\u8868\uff0c\u53ca\u6253\u6298\u6263 25%\u540e\u5c0f\u4e8e$10 \u7684\u6240\u6709\u7684\u8fd9 \u4e9b\u4ea7\u54c1\u3002SQL>SELECT prod_name, prod_list_price, prod_list_price - (prod_list_price * .25) \"DISCOUNTED_PRICE\" FROM products WHERE discounted_price < 10; \u6b64\u67e5\u8be2\u6267\u884c\u65f6\u53d1\u751f\u4e00\u4e2a\u9519\u8bef\u3002\u6b64\u9519\u8bef\u7684\u539f\u56e0\u662f\u4ec0\u4e48\uff1f\nA.\u62ec\u53f7\u5e94\u5305\u542b\u6574\u4e2a\u8868\u8fbe\u5f0f\u3002\nB.\u53cc\u5f15\u53f7\u5e94\u8be5\u4ece\u5217\u522b\u540d\u88ab\u5220\u9664\u3002 \nC.\u5728 WHERE \u5b50\u53e5\u7684\u8868\u8fbe\u5f0f\u5e94\u88ab\u66ff\u6362\u3002 \nD.\u5217\u522b\u540d\u5e94\u4e3a\u5927\u5199\u4e14\u5728 WHERE \u5b50\u53e5\u4e2d\u7528\u53cc\u5f15\u53f7\u62ec\u8d77\u6765\u3002",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-291",
+        "llama3-8b-answer": "A.\u62ec\u53f7\u5e94\u5305\u542b\u6574\u4e2a\u8868\u8fbe\u5f0f\u3002",
+        "gemma-7b-answer": "**C**",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "29.\u5728Oracle\u4e2d\uff0c\u6e38\u6807\u90fd\u5177\u6709\u4e0b\u5217\u5c5e\u6027\uff0c\u9664\u4e86\u3002\nA.%NOTFOUND\nB.%FOUND\nC.%ROWTYPE\nD.%ISOPEN\nE.%ROWCOUNT",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-292",
+        "llama3-8b-answer": "E. %ROWCOUNT",
+        "gemma-7b-answer": "C\n\n%ROWTYPE\u5c5e\u6027\u4e0d\u5c5e\u4e8eOracle\u6e38\u6807\u7684\u5c5e\u6027\u3002",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "175.\u4f60\u60f3\u53bb\u751f\u6210\u4e00\u4e2a\u62a5\u8868\u663e\u793a\u6bcf\u4e2a\u5458\u5de5\u4ece\u5165\u804c\u4ee5\u6765\u7684\u603b\u7684\u85aa\u91d1\u3002 \u4f60\u6267\u884c\u4e0b\u5217\u67e5\u8be2\uff1a SQL>SELECT ename ' joined on ' hiredate ', the total compensation paid is ' TO_CHAR(ROUND(ROUND(SYSDATE-hiredatE. /365) * sal + comm) \"COMPENSATION UNTIL DATE\" FROM employees; \u8f93\u51fa\u7ed3\u679c\uff1a\u54ea\u4e2a\u8bf4\u6cd5\u662f\u6b63\u786e\u7684\uff1f \nA.\u6b64\u67e5\u8be2\u6267\u884c\u9519\u8bef\u662f\u56e0\u4e3a\u522b\u540d\u65e0\u6548\u7684\u3002\nB.\u6b64\u67e5\u8be2\u80fd\u6b63\u786e\u6267\u884c\u5e76\u5f97\u5230\u6b63\u786e\u7684\u7ed3\u679c\u3002\nC.\u6b64\u67e5\u8be2\u80fd\u6b63\u786e\u6267\u884c\u4f46\u4e0d\u80fd\u5f97\u5230\u6b63\u786e\u7ed3\u679c\u3002\nD.\u6b64\u67e5\u8be2\u6267\u884c\u9519\u8bef\u662f\u56e0\u4e3a ROUND \u51fd\u6570\u662f\u65e0\u6548\u7684\u3002",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-293",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "183.\u68c0\u67e5\u4e0b\u5217 CREATE SEQUENCE \u8bed\u6cd5\uff1a CREATE SEQUENCE seq1 START WITH 100 INCREMENT BY 10 MAXVALUE 200 CYCLE NOCACHE; \u5f53 SEQ1 \u5e8f\u5217\u751f\u6210\u5230\u6700\u5927\u503c\u4e3a 200\u3002\u4f60\u6267\u884c\u4e0b\u5217 SQL \u8bed\u6cd5\uff1a SELECT seq1.nextval FROM dual; \u6b64 SELECT \u8bed\u6cd5\u663e\u793a\u4ec0\u4e48\uff1f \nA. 1 B. 10 C. 100 D. \u51fa\u73b0\u9519\u8bef",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-295",
+        "llama3-8b-answer": "B. 10",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "168. \u662f\u542f\u52a8\u6570\u636e\u5e93\u65f6\u7528\u6765\u8bb0\u5f55\u6570\u636e\u6587\u4ef6\u3001\u8054\u673a\u65e5\u5fd7\u6587\u4ef6\u7684\u76f8\u5173\u4fe1\u606f\u7684\u4e8c\u8fdb\u5236\u6587\u4ef6\u3002\nA.\u6570\u636e\u6587\u4ef6 \nB.\u53c2\u6570\u6587\u4ef6 \nC.\u63a7\u5236\u6587\u4ef6 \nD.\u5f52\u6863\u6587\u4ef6",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-297",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "4.\u4e0b\u9762\u54ea\u4e00\u9879\u4e0d\u5c5e\u4e8e\u5728\u7ebf\u65e5\u5fd7\u7ec4\u7684\u72b6\u6001\uff1f\nA.UNUSED\nB.NOACTIVE\nC.INACTIVE\nD.ACTIVEE.CURRENT",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-305",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "141.\u68c0\u67e5\u4e0b\u9762\u7684 SQL \u8bed\u53e5\uff0c\u54ea\u4e00\u9879\u662f\u9519\u8bef\u7684\uff1f Alter user tempuser identified by oracle default tablespace users default temporary tablespace temp quota 100M on users; \nA.default tablespace users \nB.default temporary tablespace temp \nC.quota 100M on users\nD.identified by oracle",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-314",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "80.\u5f53 Oracle \u670d\u52a1\u5668\u542f\u52a8\u65f6\uff0c\u4e0b\u5217\u54ea\u79cd\u6587\u4ef6\u4e0d\u662f\u5fc5\u987b\u7684\u3002\nA.\u6570\u636e\u6587\u4ef6 \nB.\u63a7\u5236\u6587\u4ef6 \nC.\u65e5\u5fd7\u6587\u4ef6 \nD.\u5f52\u6863\u65e5\u5fd7\u6587\u4ef6",
+        "answer": "D",
+        "solution": "",
+        "id": "Oracle Database-316",
+        "llama3-8b-answer": "D",
+        "gemma-7b-answer": "A\n\n\u6570\u636e\u6587\u4ef6\u662f\u5fc5\u987b\u7684\uff0c\u63a7\u5236\u6587\u4ef6\u548c\u65e5\u5fd7\u6587\u4ef6\u4e0d\u662f\u5fc5\u987b\u7684\u3002",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\"\u68c0\u67e5EMPLOYEES\u8868\u7684\u63cf\u8ff0\uff1a\n\u540d\u79f0 Null? \u7c7b\u578b\n-------------------------------------------------- ----------\nEMPLOYEE_ID NOT NULL NUMBER(4)\nEMPLOYEE_NAME NOT NULL VARCHAR2 (100)\nSALARY NOT NULL NUMBER(6,2)\u3002\nDEPARTMENT_ID NOT NULL NUMBER(4)\n\u54ea\u4e2a\u8bed\u53e5\u4f1a\u5931\u8d25\uff1f\nA.  SELECT department_id, COUNT(*)\nFROM employees\nWHERE department_id <> 90\nHAVING COUNT(*) >= 3\nGROUP BY department_id;\nB.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id <> 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\nC.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id < 90\nGROUP BY department_id\nHAVING COUNT(*) >= 3;\nD.  SELECT department_id, COUNT (*)\nFROM employees\nHAVING department_id < 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\"",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-322",
+        "llama3-8b-answer": "C.",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "9.\u4e0b\u5217\u5173\u4e8e\u8fd8\u539f\u4e0e\u6062\u590d\u8bf4\u6cd5\u6b63\u786e\u7684\u662f\uff1f\nA.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u65e0\u6cd5\u8fd8\u539f\u6570\u636e\u5e93\nB.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93\nC.\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ea\u80fd\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u65e0\u6cd5\u6062\u590d\u6570\u636e\u5e93\nD.\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u65e2\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93",
+        "answer": "D",
+        "solution": "",
+        "id": "Oracle Database-326",
+        "llama3-8b-answer": "B.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "104.\u5728 sqlplus \u4e2d\u4f7f\u7528 create user \u547d\u4ee4\u521b\u5efa\u7528\u6237\u540e\uff0c\u8be5\u7528\u6237\u6ca1\u6709\u4efb\u4f55\u6743\u9650\u3002\nA.\u662f \nB.\u5426",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-328",
+        "llama3-8b-answer": "B.",
+        "gemma-7b-answer": "A.\n\ncreate user \u547d\u4ee4\u9ed8\u8ba4\u4e0d\u6388\u4e88\u4efb\u4f55\u6743\u9650\u3002",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "121.PL/SQL \u5757\u4e2d\u4e0d\u80fd\u76f4\u63a5\u4f7f\u7528\u7684 SQL \u547d\u4ee4\u662f \u3002\nA.SELECT\nB.INSERT\nC.UPDATE\nD.DROP",
+        "answer": "D",
+        "solution": "",
+        "id": "Oracle Database-334",
+        "llama3-8b-answer": "B.",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "166. \u8bed\u8a00\u662f\u8fc7\u7a0b\u5316 SQL \u7684\u7f29\u5199\nA.SQL \nB.Tran-SQL \nC.PL/SQL\nD.\u4ee5\u4e0a\u90fd\u4e0d\u5bf9",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-342",
+        "llama3-8b-answer": "C.",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "2.Oracle NET \u76f8\u5173\u7684\u4e09\u4e2a\u6587\u4ef6\u5177\u4f53\u8def\u5f84\u5728\u4ec0\u4e48\u5730\u65b9\uff1f\nA.$ORACLE_HOME/dbs\nB.$ORACLE_HOME/network/admin\nC.$ORACLE_HOME/network/dbs\nD.$ORACLE_HOME/admin",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-346",
+        "llama3-8b-answer": "B.",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "123.\u8981\u66f4\u65b0\u6e38\u6807\u7ed3\u679c\u96c6\u4e2d\u7684\u5f53\u524d\u884c\uff0c\u5e94\u4f7f\u7528 \u5b50\u53e5\nA.WHERE CURRENT OF\nB.FOR UPDATE\nC.FOR DELETE\nD.FOR MODIFY",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-347",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "\u5173\u4e8e\u590d\u5408\u67e5\u8be2\u4e2d\u4f7f\u7528\u7684INTERSECT\u8fd0\u7b97\u7b26\uff0c\u54ea\u4e2a\u9648\u8ff0\u662f\u6b63\u786e\u7684\uff1f\nA. \u5b83\u5ffd\u7565NULL\u503c\u3002\nB. INTERSECT\u7684\u4f18\u5148\u7ea7\u4f4e\u4e8eUNION\u6216UNION ALL\u3002\nC. \u540c\u4e00SQL\u8bed\u53e5\u4e2d\u4e0d\u53ef\u80fd\u6709\u591a\u4e2aINTERSECT\u8fd0\u7b97\u7b26\u3002\nD. \u5b83\u5904\u7406\u6240\u9009\u5217\u4e2d\u7684NULL\u503c\u3002",
+        "answer": "D",
+        "solution": "",
+        "id": "Oracle Database-349",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "41.\u5173\u4e8e TRUNCATE \u548c DELETE \u547d\u4ee4\uff0c\u4e0b\u5217\u63cf\u8ff0\u6b63\u786e\u7684\u662f\nA.\u4e24\u8005\u90fd\u5c5e\u4e8e DML \u8bed\u53e5\u3002 \nB.\u4e24\u8005\u90fd\u4e0d\u5c5e\u4e8e DML \u8bed\u53e5\u3002 \nC.\u6267\u884c TRUNCATE \u547d\u4ee4\u4e4b\u540e\uff0c\u8be5\u4f1a\u8bdd\u4e2d\u5148\u524d\u672a\u63d0\u4ea4\u7684\u4e8b\u52a1\u81ea\u52a8\u63d0\u4ea4\u3002 \nD.\u6267\u884c TRUNCATE \u547d\u4ee4\u4e4b\u540e\uff0c\u8be5\u4f1a\u8bdd\u4e2d\u5148\u524d\u672a\u63d0\u4ea4\u7684\u4e8b\u52a1\u81ea\u52a8\u56de\u6eda\u3002",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-356",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "184.\u68c0\u67e5\u4e0b\u5217 SQL \u8bed\u6cd5\uff1a \u7528 PRODUCTS \u8868\uff0c\u4f60\u9700\u8981\u751f\u6210\u540d\u5b57\uff0c\u5f53\u524d\u4ef7\u683c\u5217\u8868\uff0c\u53ca\u6253\u6298\u6263 25%\u540e\u5c0f\u4e8e$10 \u7684\u6240\u6709\u7684\u8fd9 \u4e9b\u4ea7\u54c1\u3002SQL>SELECT prod_name, prod_list_price, prod_list_price - (prod_list_price * .25) \"DISCOUNTED_PRICE\" FROM products WHERE discounted_price < 10; \u6b64\u67e5\u8be2\u6267\u884c\u65f6\u53d1\u751f\u4e00\u4e2a\u9519\u8bef\u3002\u6b64\u9519\u8bef\u7684\u539f\u56e0\u662f\u4ec0\u4e48\uff1f\nA.\u62ec\u53f7\u5e94\u5305\u542b\u6574\u4e2a\u8868\u8fbe\u5f0f\u3002\nB.\u53cc\u5f15\u53f7\u5e94\u8be5\u4ece\u5217\u522b\u540d\u88ab\u5220\u9664\u3002 \nC.\u5728 WHERE \u5b50\u53e5\u7684\u8868\u8fbe\u5f0f\u5e94\u88ab\u66ff\u6362\u3002 \nD.\u5217\u522b\u540d\u5e94\u4e3a\u5927\u5199\u4e14\u5728 WHERE \u5b50\u53e5\u4e2d\u7528\u53cc\u5f15\u53f7\u62ec\u8d77\u6765\u3002",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-360",
+        "llama3-8b-answer": "A. \u62ec\u53f7\u5e94\u5305\u542b\u6574\u4e2a\u8868\u8fbe\u5f0f\u3002",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "47.MARKS \u8868\u7ed3\u6784\u5982\u4e0b :STD_ID NUMBER(4) STUDENT_NAME VARCHAR2(30) SUBJ1 NUMBER(3) SUBJ2 NUMBER(3)\u4e0b\u9762 sql \u8bed\u53e5\u4e2d\u662f\u5426\u5b58\u5728\u9519\u8bef SELECT subj1+subj2 total_marks, std_id FROM marks WHERE subj1 > AVG(subj1) AND subj2 > AVG(subj2) ORDER BY total_marks; \u5982\u679c\u6709\u9519\u8bef\uff0c\u8bf7\u6307\u51fa\u662f\u54ea\u4e00\u9879\uff1f\nA.\u80fd\u591f\u6210\u529f\u6267\u884c\nB.SELECT \u5b50\u53e5\u4e2d\u6709\u9519\u8bef\nC.WHERE \u5b50\u53e5\u4e2d\u6709\u9519\u8bef\nD.ORDER BY\u5b50\u53e5\u4e2d\u6709\u9519\u8bef",
+        "answer": "C",
+        "solution": "",
+        "id": "Oracle Database-361",
+        "llama3-8b-answer": "B.",
+        "gemma-7b-answer": "C\n\nWHERE \u5b50\u53e5\u4e2d\u6709\u9519\u8bef\u3002AVG() \u51fd\u6570\u9700\u8981\u4e00\u4e2a\u7ec4\u51fd\u6570\u8bcd\uff08\u4f8b\u5982 SUM()\u3001COUNT() \u6216 AVG()\uff09\u4f5c\u4e3a\u5176\u7b2c\u4e00\u4e2a\u53c2\u6570\uff0c\u4f46 SUBJ1 \u548c SUBJ2 \u5217\u6ca1\u6709\u8fdb\u884c\u5206\u7ec4\u3002",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "question": "86.\u5728 Windows \u64cd\u4f5c\u7cfb\u7edf\u4e2d\uff0cOracle \u7684 \u670d\u52a1\u662f\u4f7f\u7528 iSQL*Plus \u5fc5\u987b\u7684\u3002\nA.OracleHOME_NAMETNSListener \nB.OracleServiceSID \nC.OracleHOME_NAMEAgent \nD.OracleHOME_NAMEHTTPServer",
+        "answer": "B",
+        "solution": "",
+        "id": "Oracle Database-374",
+        "llama3-8b-answer": "B.OracleServiceSID",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "question": "60.\u67e5\u770b\u5e8f\u5217DEPT_DEPTNO\u7684\u5f53\u524d\u503c\uff0c\u5e94\u8be5\u4f7f\u7528\u4f2a\u5217\nA.CURRVAL \nB.NEXTVAL \nC.MAXVAL \nD.MINVAL",
+        "answer": "A",
+        "solution": "",
+        "id": "Oracle Database-377",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    }
+]
