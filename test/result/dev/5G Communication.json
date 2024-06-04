@@ -1,0 +1,80 @@
+[
+    {
+        "id": "5G Communication-0",
+        "question": "5G AN 和 AMF 之间最上层协议是：（）\n\nA: GTP-U\nB: GTP-C\nC: NG-AP.\nD: S1AP",
+        "choices": [
+            "GTP-U",
+            "GTP-C",
+            "NG-AP.",
+            "S1AP"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b_answer": "C",
+        "llama3-8b_solution": "5G AN (Access Network) and AMF (Access and Mobility Management Function) are two key components in the 5G network architecture. The interface between them is the NG-AP (Next Generation Access Point) protocol, which is used for the control plane communication between the 5G AN and the AMF. Therefore, the correct answer is C: NG-AP.",
+        "llama3-8b_correct": true
+    },
+    {
+        "id": "5G Communication-1",
+        "question": "PCF通知哪个网元创建语音专有QoS Flow\nA: SMF\nB: AMF\nC: UPF\nD: sbc",
+        "choices": [
+            "SMF",
+            "AMF",
+            "UPF",
+            "sbc"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b_answer": "B",
+        "llama3-8b_solution": "According to the 3GPP specification, the PCF (Policy Control Function) sends a notification to the AMF (Access and Mobility Management Function) to create a dedicated QoS (Quality of Service) flow for a voice-specific flow. This is because the AMF is responsible for managing the QoS policies for the UE (User Equipment). Therefore, the correct answer is B: AMF.",
+        "llama3-8b_correct": false
+    },
+    {
+        "id": "5G Communication-2",
+        "question": "和EPC接口Sgi功能类似的5GC接口是？\nA: N1\nB: N2\nC: N3\nD: N6",
+        "choices": [
+            "N1",
+            "N2",
+            "N3",
+            "N6"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b_answer": "B",
+        "llama3-8b_solution": "The 5GC interface similar to EPC Sgi function is N2. N2 is the interface between the 5GC and the EPC, responsible for the exchange of information related to the establishment, modification, and release of PDU sessions. This interface is similar to the Sgi interface in the EPC, which is responsible for the exchange of information related to the establishment, modification, and release of PDP contexts.",
+        "llama3-8b_correct": false
+    },
+    {
+        "id": "5G Communication-3",
+        "question": "option3 的控制面是通过gnodeb传递的\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b_answer": "A",
+        "llama3-8b_solution": "The control plane of option 3 is indeed transmitted through the Gn nodeB. In a 4G/5G network, the Gn nodeB is responsible for controlling the radio access network, including the allocation of resources, handovers, and other control functions. The Gn nodeB communicates with the MME (Mobility Management Entity) and the SGSN (Serving GPRS Support Node) to manage the mobility and routing of user traffic. Therefore, option A is the correct answer.",
+        "llama3-8b_correct": false
+    },
+    {
+        "id": "5G Communication-4",
+        "question": "为了减少混乱的方位角带来的网络干扰不确定性，应尽量保证各扇区天线的夹角为120度，最低要求不能小于（）度\nA: 70\nB: 80\nC: 90\nD: 100",
+        "choices": [
+            "70",
+            "80",
+            "90",
+            "100"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b_answer": "C",
+        "llama3-8b_solution": "To reduce the uncertainty caused by the multipath effect, it is recommended to ensure that the angle between adjacent sectors is at least 120 degrees. This is because a smaller angle can lead to increased multipath interference, which can cause signal degradation and reduced network reliability. Therefore, the correct answer is C: 90 degrees, which is the minimum requirement for sector antenna angle to mitigate multipath effects.",
+        "llama3-8b_correct": true
+    }
+]
