@@ -1,0 +1,1758 @@
+[
+    {
+        "id": "5G Communication-6",
+        "question": "5G中用户标识用户Qos信息的字段是\nA: QCI\nB: 5qi\nC: ARP\nD: Qos",
+        "choices": [
+            "QCI",
+            "5qi",
+            "ARP",
+            "Qos"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-7",
+        "question": "如果UE会话建立流程为未携带S-NSSAI，则\nA: AMF随机选择一个S-NSSAI建立会话\nB: AMF随机选择用户签约的默认S-NSSAI建立会话（AMF支持该切片）\nC: AMF选择本局缺省S-NSSAI建立会话\nD: 流程失败",
+        "choices": [
+            "AMF随机选择一个S-NSSAI建立会话",
+            "AMF随机选择用户签约的默认S-NSSAI建立会话（AMF支持该切片）",
+            "AMF选择本局缺省S-NSSAI建立会话",
+            "流程失败"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-8",
+        "question": "5GC的目标架构不包括以下哪一项？\nA: CUPS\nB: 构建切片网络\nC: 传统架构\nD: 原生云化",
+        "choices": [
+            "CUPS",
+            "构建切片网络",
+            "传统架构",
+            "原生云化"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-9",
+        "question": "网络安全法律体系中司法解释有几部？\nA: 6\nB: 7\nC: 8\nD: 9",
+        "choices": [
+            "6",
+            "7",
+            "8",
+            "9"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-10",
+        "question": "NR PDSCH在调度时时域上最小使用几个符号\nA: 2\nB: 4\nC: 12\nD: 14",
+        "choices": [
+            "2",
+            "4",
+            "12",
+            "14"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-26",
+        "question": "塔上作业最少需要（ ）人\nA: 一人\nB: 二人\nC: 三人\nD: 四人",
+        "choices": [
+            "一人",
+            "二人",
+            "三人",
+            "四人"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-27",
+        "question": "下列选项中哪个是5G NR下PUCCH的配置特点\nA: 系统带宽两端\nB: 固定14个符号\nC: 跳频\nD: 灵活长度",
+        "choices": [
+            "系统带宽两端",
+            "固定14个符号",
+            "跳频",
+            "灵活长度"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-33",
+        "question": "5G无线资源调度的最小单位是以下哪项?\nA: 符号\nB: 子帧\nC: 无线帧\nD: 时隙",
+        "choices": [
+            "符号",
+            "子帧",
+            "无线帧",
+            "时隙"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-35",
+        "question": "NR中有多少个PCI？\nA: 252\nB: 504\nC: 1008\nD: 2016",
+        "choices": [
+            "252",
+            "504",
+            "1008",
+            "2016"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-38",
+        "question": "以下不属于5G室分对业务要求的是\nA: 1) 支持高清语音\nB: 2) 急速上网100mbps-1Gbps\nC: 3) 时延1ms-10ms\nD: 4) 定位精度在10m",
+        "choices": [
+            "1) 支持高清语音",
+            "2) 急速上网100mbps-1Gbps",
+            "3) 时延1ms-10ms",
+            "4) 定位精度在10m"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "**D**",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-44",
+        "question": "3.5Ghz频率的波长是多少？\nA: 2mm\nB: 8.5cm\nC: 17cm\nD: 35cm",
+        "choices": [
+            "2mm",
+            "8.5cm",
+            "17cm",
+            "35cm"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-45",
+        "question": "NR SRB2的配置信息在哪一条RRC消息中？\nA: RRC Reconfiguration\nB: RRC Restablishment Request\nC: RRC Setup\nD: DL Information Transfer",
+        "choices": [
+            "RRC Reconfiguration",
+            "RRC Restablishment Request",
+            "RRC Setup",
+            "DL Information Transfer"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-56",
+        "question": "NR系统中，一个SS/PBCH block包含（ ）个OFDM symbols。\nA: 4\nB: 1\nC: 3\nD: 2",
+        "choices": [
+            "4",
+            "1",
+            "3",
+            "2"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-57",
+        "question": "Option3x辅站添加的测量报告中，上报的RSRP值为50，则真实的电平值是？\nA: 50dBm\nB: -107dBm\nC: -50dBm\nD: -87dBm",
+        "choices": [
+            "50dBm",
+            "-107dBm",
+            "-50dBm",
+            "-87dBm"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-58",
+        "question": "第5代移动通信系统是制式的系统。\nA: 电路\nB: 数字\nC: 模拟\nD: 逻辑",
+        "choices": [
+            "电路",
+            "数字",
+            "模拟",
+            "逻辑"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-62",
+        "question": "EN-DC中，下面哪些信令可以携带SCG Failure information？\nA: LTE侧的SCGFailureInformationNR\nB: NR侧的SCGFailureInformation\nC: LTE侧的SCGFailureInformation\nD: NR侧的SCGFailureInformationNR",
+        "choices": [
+            "LTE侧的SCGFailureInformationNR",
+            "NR侧的SCGFailureInformation",
+            "LTE侧的SCGFailureInformation",
+            "NR侧的SCGFailureInformationNR"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-64",
+        "question": "LTE测量NR，测量的基本单位是小区\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-66",
+        "question": "关于NR物理层处理，以下说法错误的是哪项？\nA: 最大的层数是8，对于2个码字\nB: 上行也可以支持多层数据，最大层为4\nC: 天线端口数必须等于层数\nD: 天线端口数可以大于层数",
+        "choices": [
+            "最大的层数是8，对于2个码字",
+            "上行也可以支持多层数据，最大层为4",
+            "天线端口数必须等于层数",
+            "天线端口数可以大于层数"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-70",
+        "question": "当前eMBBU场景100M带宽下，5G低频的子载波数是（）\nA: 1)1200\nB: 2)3264\nC: 3)3168\nD: 4)3364",
+        "choices": [
+            "1)1200",
+            "2)3264",
+            "3)3168",
+            "4)3364"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-72",
+        "question": "以下哪个是DTF-S-OFDM波形特有的物理层处理步骤？\nA: Scrambling\nB: Transformer Precoding\nC: Layer mapping\nD: Modulation",
+        "choices": [
+            "Scrambling",
+            "Transformer Precoding",
+            "Layer mapping",
+            "Modulation"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-73",
+        "question": "SIB1消息中的信元useFullResumeID字段不存在，则UE使用full I-RNTI和RRCResumeRequest1。\n",
+        "choices": [],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "A6",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-74",
+        "question": "NR小区由谁决定？\nA: 系统信息\nB: MIB\nC: SS-Block\nD: DMRS",
+        "choices": [
+            "系统信息",
+            "MIB",
+            "SS-Block",
+            "DMRS"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-75",
+        "question": "在基于频率优先级的异频切換场景下,以下哪个事件测量报告用于触发异频测量?\nA: A3\nB: A2\nC: A1\nD: A4",
+        "choices": [
+            "A3",
+            "A2",
+            "A1",
+            "A4"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-76",
+        "question": "EN-DC中，MCG进行NR邻区测量使用的参考信号  ( )\nA: SSB  RS\nB: CSI-RS\nC: C-RS\nD: DM-RS",
+        "choices": [
+            "SSB  RS",
+            "CSI-RS",
+            "C-RS",
+            "DM-RS"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-82",
+        "question": "PUCCH的功率控制包括msg3的功率和普通PUSCH的功率，关于两者的差异，以下描述错误的是哪一项？\nA: Msg3 PUCCH功率控制中可以设置额外的偏置\nB: Msg3 PUCCH 功控中的路损结果比普通PUSCH功控中的路损结果要小\nC: 两个算法中对于调整量的计算原理是相同的\nD: Msg3功率控制的路损计算结果和PRACH功控时的计算结果是一样的",
+        "choices": [
+            "Msg3 PUCCH功率控制中可以设置额外的偏置",
+            "Msg3 PUCCH 功控中的路损结果比普通PUSCH功控中的路损结果要小",
+            "两个算法中对于调整量的计算原理是相同的",
+            "Msg3功率控制的路损计算结果和PRACH功控时的计算结果是一样的"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "**D**\n\nMsg3 PUSCH 功率控制与 PRACH 功控不同，其路损计算结果并不完全一致。",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-84",
+        "question": "5G空口灌包时测出来的速率是哪个协议层的速率？\nA: RLC\nB: PDCP\nC: MAC\nD: PHY",
+        "choices": [
+            "RLC",
+            "PDCP",
+            "MAC",
+            "PHY"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-85",
+        "question": "5G的空口时延要求小于（    ）。\nA: 5ms\nB: 10ms\nC: 1ms\nD: 100ms",
+        "choices": [
+            "5ms",
+            "10ms",
+            "1ms",
+            "100ms"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-89",
+        "question": "以下哪个NF是负责处理NF服务注册和服务发现的网元\nA: NSSF\nB: NRF\nC: SMF\nD: UDM",
+        "choices": [
+            "NSSF",
+            "NRF",
+            "SMF",
+            "UDM"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-92",
+        "question": "NR PDCCH支持的CCE聚合度最大为\nA: 4\nB: 8\nC: 16\nD: 32",
+        "choices": [
+            "4",
+            "8",
+            "16",
+            "32"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "C: 16",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-100",
+        "question": "在5G中PDSCH最大调制是？\nA: 64QAM\nB: 128QAM\nC: 256QAM\nD: 512QAM",
+        "choices": [
+            "64QAM",
+            "128QAM",
+            "256QAM",
+            "512QAM"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-105",
+        "question": "NSA组网中，NR出现掉话时会记录在5G网络侧。\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-107",
+        "question": "SRS根据时间周期可以配置有三种情况，即非周期、周期、半静态，只能占用slot中最后6个符号。\n",
+        "choices": [],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A/B/C/D",
+        "gemma-7b-answer": "半静态",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-109",
+        "question": "以下哪些选项属于5G PDCP层功能？\nA: 准入控制\nB: 加解密和完整性保护\nC: 切换和移动性\nD: 无线资源管理",
+        "choices": [
+            "准入控制",
+            "加解密和完整性保护",
+            "切换和移动性",
+            "无线资源管理"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-110",
+        "question": "在5GS中，用于会话管理的核心网节点是？\nA: AMF\nB: SMF\nC: UPF\nD: AUSF",
+        "choices": [
+            "AMF",
+            "SMF",
+            "UPF",
+            "AUSF"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-123",
+        "question": "为了减少混乱的方位角带来的网络干扰不确定性，应尽量保证各扇区天线的夹角为120度，最低要求不能小于（）度\nA: 70\nB: 80\nC: 90\nD: 100",
+        "choices": [
+            "70",
+            "80",
+            "90",
+            "100"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-131",
+        "question": "子载波间隔为30kHz时，最大支持的带宽配置为（    ）\nA: 20M\nB: 50M\nC: 100M\nD: 400M",
+        "choices": [
+            "20M",
+            "50M",
+            "100M",
+            "400M"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "A: 20M",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-132",
+        "question": "NR系统中引入了SSB，用于传输PSS、SSS和PBCH，SSB在时域占用____个OFDM符号，在频域占用____个PRB\nA: 2，10\nB: 4，10\nC: 4，20\nD: 2，20",
+        "choices": [
+            "2，10",
+            "4，10",
+            "4，20",
+            "2，20"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-133",
+        "question": "在5G中PDSCH最大调制是？\nA: 64QAM\nB: 128QAM\nC: 256QAM\nD: 512QAM",
+        "choices": [
+            "64QAM",
+            "128QAM",
+            "256QAM",
+            "512QAM"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-142",
+        "question": "Docker是一个开源的应用容器引擎，让开发者可以打包他们的应用以及依赖包到一个可移植的容器中，然后发布到任何流行的Linux机器上，也可以实现虚拟化。\n",
+        "choices": [],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "虚拟化。\n\nDocker是一种开源的应用容器引擎，可以使开发者将应用程序和依赖项打包成一个可移植的容器，并将其发布到任何流行的 Linux 机器上，以实现虚拟化。",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-143",
+        "question": "NR 2.6G的帧头需要和哪个系统对齐，以避免干扰？\nA: FDD 1800频段\nB: TDD F频段\nC: TD-LTE D频段\nD: 不需要和哪个系统对齐",
+        "choices": [
+            "FDD 1800频段",
+            "TDD F频段",
+            "TD-LTE D频段",
+            "不需要和哪个系统对齐"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-147",
+        "question": "注册流程中，AMF查询切片信息时会向哪个NF去请求切片鉴权信息？\nA: PCF\nB: UDM\nC: NSSF\nD: NRF",
+        "choices": [
+            "PCF",
+            "UDM",
+            "NSSF",
+            "NRF"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-150",
+        "question": "以下那个信道没有DMRS信号？\nA: PBCH\nB: PUCCH\nC: PRACH\nD: PDSCH",
+        "choices": [
+            "PBCH",
+            "PUCCH",
+            "PRACH",
+            "PDSCH"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-155",
+        "question": "9.PDU session ID唯一标识了一个会话，由SMF动态分配\n",
+        "choices": [],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "S7",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-156",
+        "question": "以下业务中，哪类业务默认的优先级是最高的？\nA: 5QI=2\nB: 5QI=9\nC: 5QI=5\nD: 5QI=1",
+        "choices": [
+            "5QI=2",
+            "5QI=9",
+            "5QI=5",
+            "5QI=1"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-158",
+        "question": "5GC中用于寻呼的用户标识是？\nA: 5G-GUTI\nB: 5G-TMSI\nC: 5G-S-TMSI\nD: SUCI",
+        "choices": [
+            "5G-GUTI",
+            "5G-TMSI",
+            "5G-S-TMSI",
+            "SUCI"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-161",
+        "question": "采用分层法进行传输故障定位的时候，数据链路层主要关注哪方面的配置？\nA: IP地址\nB: 掩码\nC: 路由\nD: VLAN",
+        "choices": [
+            "IP地址",
+            "掩码",
+            "路由",
+            "VLAN"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-164",
+        "question": "ARQ功能只存在于哪种RLC协议实体\nA: CM\nB: TM\nC: UM\nD: AM",
+        "choices": [
+            "CM",
+            "TM",
+            "UM",
+            "AM"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "D",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-170",
+        "question": "NR中一共有多少个物理小区ID（PCI）？\nA: 252\nB: 504\nC: 1008\nD: 2016",
+        "choices": [
+            "252",
+            "504",
+            "1008",
+            "2016"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-171",
+        "question": "在下行调度过程中，以下哪类业务调度优先级最高？\nA: SIB\nB: VoNR业务\nC: NAS\nD: RRC信令",
+        "choices": [
+            "SIB",
+            "VoNR业务",
+            "NAS",
+            "RRC信令"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-172",
+        "question": "下面那些关于MICO的描述是正确的\nA: MICO模式是AMF主动激活\nB: UE 和AMF 在初始或后续注册过程中协商MICO 模式\nC: MICO模式下可以给UE下发基于NAS的SMS消息\nD: UE处于MICO模式时可以被寻呼",
+        "choices": [
+            "MICO模式是AMF主动激活",
+            "UE 和AMF 在初始或后续注册过程中协商MICO 模式",
+            "MICO模式下可以给UE下发基于NAS的SMS消息",
+            "UE处于MICO模式时可以被寻呼"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-179",
+        "question": "NSA部署场景的核心网采用\nA: EPC\nB: 5GC\nC: MSC\nD: RNC",
+        "choices": [
+            "EPC",
+            "5GC",
+            "MSC",
+            "RNC"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-180",
+        "question": "网络虚拟化主要是实现哪些部件的虚拟化？\nA: 转发平面\nB: 控制平面\nC: 连接实现\nD: 以上都不是",
+        "choices": [
+            "转发平面",
+            "控制平面",
+            "连接实现",
+            "以上都不是"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-186",
+        "question": "VNF和NFVI的配置分层管理，所有VNF都支持MML命令， NFVI不支持MML\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-188",
+        "question": "目前中移动2.6G频段采用的子帧配比是：\nA: 1:3\nB: 7:3\nC: 8:2\nD: 9:1",
+        "choices": [
+            "1:3",
+            "7:3",
+            "8:2",
+            "9:1"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-191",
+        "question": "关于NR系统带宽描述，以下说法错误的是哪项？\nA: FR1频段下，任何频带都能支持100MHz带宽\nB: FR1频段下的最大带宽为273RB\nC: FR2频段下只有120kHz的子载波带宽能够支持400MHz小区带宽\nD: FR2频段下的最大带宽为264RB",
+        "choices": [
+            "FR1频段下，任何频带都能支持100MHz带宽",
+            "FR1频段下的最大带宽为273RB",
+            "FR2频段下只有120kHz的子载波带宽能够支持400MHz小区带宽",
+            "FR2频段下的最大带宽为264RB"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "**C**",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-192",
+        "question": "SMF和UPF的接口是？\nA: N1\nB: N2\nC: N3\nD: N4",
+        "choices": [
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-193",
+        "question": "NR SRB2的配置信息在哪一条RRC消息中？\nA: RRC Reconfiguration\nB: RRC Restablishment Request\nC: RRC Setup\nD: DL Information Transfer",
+        "choices": [
+            "RRC Reconfiguration",
+            "RRC Restablishment Request",
+            "RRC Setup",
+            "DL Information Transfer"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-195",
+        "question": "SBC与PCF间接口名称为\nA: Gx\nB: Rx\nC: Mw\nD: N26",
+        "choices": [
+            "Gx",
+            "Rx",
+            "Mw",
+            "N26"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-198",
+        "question": "PDSCH的资源由PDCCH调度，涉及时隙、符号、RB三个维度\n",
+        "choices": [],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A071",
+        "gemma-7b-answer": "无法从提供的上下文中获取PDSCH资源由PDCCH调度的特定问题和答案，因此无法提供答案。",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-202",
+        "question": "NR中物理层小区ID共有（）个\nA: 504\nB: 168\nC: 1008\nD: 336",
+        "choices": [
+            "504",
+            "168",
+            "1008",
+            "336"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-205",
+        "question": "为了最快实现5G商用，3GPP提出采用哪种组网方案？\nA: Option 2\nB: Option 3\nC: Option 4\nD: Option 5",
+        "choices": [
+            "Option 2",
+            "Option 3",
+            "Option 4",
+            "Option 5"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-208",
+        "question": "10.如下不属于5G会话管理流程的是\nA: PDU会话建立\nB: PDU会话更新\nC: PDU会话释放\nD: 专有QoS Flow激活",
+        "choices": [
+            "PDU会话建立",
+            "PDU会话更新",
+            "PDU会话释放",
+            "专有QoS Flow激活"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-209",
+        "question": "以下哪个参数不用于PRACH功率控制?\nA: preamblereceivedTargetPower\nB: Prach-configuration Index\nC: preambletransmax\nD: SSB Tx Power",
+        "choices": [
+            "preamblereceivedTargetPower",
+            "Prach-configuration Index",
+            "preambletransmax",
+            "SSB Tx Power"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-210",
+        "question": "5G FR1频段最大的带宽为哪项？\nA: 20MHz\nB: 40MHz\nC: 80MHz\nD: 100MHz",
+        "choices": [
+            "20MHz",
+            "40MHz",
+            "80MHz",
+            "100MHz"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-211",
+        "question": "9.PDU session ID唯一标识了一个会话，由SMF动态分配\n",
+        "choices": [],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-212",
+        "question": "5G实验局NSA组网建议采用____架构？\nA: Option3\nB: Option3a\nC: Option3x\nD: Option7x",
+        "choices": [
+            "Option3",
+            "Option3a",
+            "Option3x",
+            "Option7x"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-213",
+        "question": "SMF和UPF的接口是？\nA: N1\nB: N2\nC: N3\nD: N4",
+        "choices": [
+            "N1",
+            "N2",
+            "N3",
+            "N4"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-215",
+        "question": "当PDSCH采用type2的dmrs时，最大支持的端口数是多少？\nA: 8\nB: 4\nC: 6\nD: 12",
+        "choices": [
+            "8",
+            "4",
+            "6",
+            "12"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-220",
+        "question": "快衰落的特性是。\nA: 有线通信\nB: 慢速\nC: 瑞利分布\nD: 浅度",
+        "choices": [
+            "有线通信",
+            "慢速",
+            "瑞利分布",
+            "浅度"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-227",
+        "question": "在配置5G外部小区命令中，以下哪些参数无需配置？\nA: TAC\nB: gNodeB ID\nC: PCI\nD: gNodeB ID 长度",
+        "choices": [
+            "TAC",
+            "gNodeB ID",
+            "PCI",
+            "gNodeB ID 长度"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-228",
+        "question": "SA是在３ＧＰＰ哪个版本中冻结的？　（）\nA: 3GPP Rel-15\nB: 3GPP Rel-1６\nC: 3GPP Rel-1７\nD: 3GPP Rel-1８",
+        "choices": [
+            "3GPP Rel-15",
+            "3GPP Rel-1６",
+            "3GPP Rel-1７",
+            "3GPP Rel-1８"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-229",
+        "question": "5G基站命名为：\nA: NodeB\nB: eNodeB\nC: gNodeB\nD: hNodeB",
+        "choices": [
+            "NodeB",
+            "eNodeB",
+            "gNodeB",
+            "hNodeB"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-235",
+        "question": "在5GC中,以下哪个模块用于用户的鉴权管理?\nA: AMF\nB: AUSF\nC: PCF\nD: SMF",
+        "choices": [
+            "AMF",
+            "AUSF",
+            "PCF",
+            "SMF"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-236",
+        "question": "在基于SBA的架构下，控制面的各NF摒弃了传统的的点对点的通信方式，采用了基于服务化架构的（   ）串行总线接口协议，传输层统一采用了HTTP/2协议，应用层携带不同的服务消息\nA: DPI\nB: API\nC: SBI\nD: CBI",
+        "choices": [
+            "DPI",
+            "API",
+            "SBI",
+            "CBI"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-237",
+        "question": "8p4b配置下每个Beam发送2个Port。\n",
+        "choices": [],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "没有提供8p4b配置下每个Beam发送2个Port的单选题，因此我无法提供答案。",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-239",
+        "question": "在下行MCS调整过程中，基站是基于以下哪种测量量进行调整的？\nA: PDCCH SINR\nB: PDSCH BLER\nC: PDCCH BLER\nD: PDSCH SINR",
+        "choices": [
+            "PDCCH SINR",
+            "PDSCH BLER",
+            "PDCCH BLER",
+            "PDSCH SINR"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-240",
+        "question": "一个REG由（）组成\nA: 频域4个RE，时域1个符号\nB: 频域1个RB，时域1个符号\nC: 频域1个RB，时域1个时隙\nD: 频域6个RE，时域1个时隙",
+        "choices": [
+            "频域4个RE，时域1个符号",
+            "频域1个RB，时域1个符号",
+            "频域1个RB，时域1个时隙",
+            "频域6个RE，时域1个时隙"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-242",
+        "question": "环境条件复杂，形成的多径越多，MU-MIMO的配对成功率越高\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-244",
+        "question": "如果采用CUPS，哪个网元和MME有直接通信的接口？\nA: EPG-C\nB: EPG-U\nC: SMF\nD: UPF",
+        "choices": [
+            "EPG-C",
+            "EPG-U",
+            "SMF",
+            "UPF"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-245",
+        "question": "LTE与5G NR的无线帧结构完全相同。\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-247",
+        "question": "5G支持最大带宽可达400MHz。\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-253",
+        "question": "NSA场景中触发辅站变更的测量报告是通过LTE传递到NR的。\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-256",
+        "question": "vSEPP和hSEPP之间接口是？\nA: N24\nB: N27\nC: N31\nD: N32",
+        "choices": [
+            "N24",
+            "N27",
+            "N31",
+            "N32"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-257",
+        "question": "5G无线小区重选相关参数在那个系统消息下发？\nA: SIB1\nB: SIB2\nC: SIB3\nD: SIB4",
+        "choices": [
+            "SIB1",
+            "SIB2",
+            "SIB3",
+            "SIB4"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-260",
+        "question": "5.UE最多可同时接入8个切片的限制来源于如下哪个参数\nA: Requested NSSAI\nB: Subscribed NSSAI\nC: Configured NSSAI\nD: Allowed NSSAI",
+        "choices": [
+            "Requested NSSAI",
+            "Subscribed NSSAI",
+            "Configured NSSAI",
+            "Allowed NSSAI"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-266",
+        "question": "在5GS中，UDM的功能和LTE的哪个网元功能相似？\nA: HSS\nB: MME\nC: SGW\nD: PGW",
+        "choices": [
+            "HSS",
+            "MME",
+            "SGW",
+            "PGW"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-269",
+        "question": "CSI-RS可以：\nA: 波束赋型\nB: 一直覆盖整个扇区\nC: 一直周期性发送\nD: 只能由底层配置（非RRC）",
+        "choices": [
+            "波束赋型",
+            "一直覆盖整个扇区",
+            "一直周期性发送",
+            "只能由底层配置（非RRC）"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-274",
+        "question": "UE静态IP地址可通过什么方式实现\nA: NRF配置\nB: AMF配置\nC: PCF签约\nD: UDM签约",
+        "choices": [
+            "NRF配置",
+            "AMF配置",
+            "PCF签约",
+            "UDM签约"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "C",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-275",
+        "question": "如下哪种单板类型是ARM类型的单板\nA: E9000\nB: 1288\nC: E9000H",
+        "choices": [
+            "E9000",
+            "1288",
+            "E9000H"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-280",
+        "question": "5G技术应用中的mMTC（海量连接的物联网业务），要求每平方公里可以实现1万的连接数量\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-282",
+        "question": "5GC网络中的Registration流程和4G网络中的attach流程是一样的\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "**A**",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-286",
+        "question": "组策略的部署过程中，在使用组策略结果工具进行评估之前，下列需要完成的部署步骤错误的是（ ）。\nA: 创建标准桌面配置\nB: 筛选GPO的应用范围\nC: 指定默认组策略继承的例外情况\nD: 建立林间信任关系",
+        "choices": [
+            "创建标准桌面配置",
+            "筛选GPO的应用范围",
+            "指定默认组策略继承的例外情况",
+            "建立林间信任关系"
+        ],
+        "qtype": 0,
+        "answer": "D",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "**D**",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-291",
+        "question": "5G SA归属地接入需要新增\nA: SGW、PGW分离部署\nB: I-SMF、I-UPF\nC: 特殊切片\nD: 特殊配置",
+        "choices": [
+            "SGW、PGW分离部署",
+            "I-SMF、I-UPF",
+            "特殊切片",
+            "特殊配置"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B: I-SMF、I-UPF",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-292",
+        "question": "MANO包括哪几个部分？\nA: VNFM+NFVO+VIM\nB: NFVO+OSS+VNFM\nC: VIM+VNFM+EMS",
+        "choices": [
+            "VNFM+NFVO+VIM",
+            "NFVO+OSS+VNFM",
+            "VIM+VNFM+EMS"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-293",
+        "question": "5G的峰值吞吐率为10G+bps。\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-295",
+        "question": "5G三大应用场景中，mMTC大规模机器类型通信对时延要求最高。\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-296",
+        "question": "针对100MHz小区，下行采用type0分配方式时，频域上最小分配的资源是多少？\nA: 16RB\nB: 4RB\nC: 8RB\nD: 2RB",
+        "choices": [
+            "16RB",
+            "4RB",
+            "8RB",
+            "2RB"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-298",
+        "question": "OpenStack运营运维类提供什么功能？\nA: 为OpenStack系统提供构建、部署、生命周期管理等功能\nB: 为OpenStack的运营运维提供辅助工具，包括系统监控、优化、计费、多区域管理\nC: 为OpenStack提供开放的API，通过SDN可以对系统进行定制化开发\nD: 是整个OpenStack架构中最核心的部分，包括计算、存储、网络、公共服务、大数据服务等功能，提供了云计算的大部分的服务",
+        "choices": [
+            "为OpenStack系统提供构建、部署、生命周期管理等功能",
+            "为OpenStack的运营运维提供辅助工具，包括系统监控、优化、计费、多区域管理",
+            "为OpenStack提供开放的API，通过SDN可以对系统进行定制化开发",
+            "是整个OpenStack架构中最核心的部分，包括计算、存储、网络、公共服务、大数据服务等功能，提供了云计算的大部分的服务"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-307",
+        "question": "DPDK解决的是NFV哪方面的问题？\nA: 网络QoS\nB: 数据包转发效率\nC: 网络安全性\nD: 网络集成能力",
+        "choices": [
+            "网络QoS",
+            "数据包转发效率",
+            "网络安全性",
+            "网络集成能力"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "**D**",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-309",
+        "question": "EN-DC中的master node是什么？\nA: eNB\nB: gNB",
+        "choices": [
+            "eNB",
+            "gNB"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-312",
+        "question": "5G会话业务连续性(SSC mode)中，哪种模式会维持IP地址和PDU会话锚点？\nA: 模式1\nB: 模式2\nC: 模式3\nD: 以上全部",
+        "choices": [
+            "模式1",
+            "模式2",
+            "模式3",
+            "以上全部"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "A",
+        "gemma-7b-answer": "D",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-314",
+        "question": "在基于频率优先级的异频切換场景下,以下哪个事件测量报告用于触发异频测量?\nA: A3\nB: A2\nC: A1\nD: A4",
+        "choices": [
+            "A3",
+            "A2",
+            "A1",
+            "A4"
+        ],
+        "qtype": 0,
+        "answer": "C",
+        "solution": "",
+        "llama3-8b-answer": "A1",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-330",
+        "question": "5G Nr测试中，SSB RSRP非常好的区域，终端速率一定很高\nA: 正确\nB: 错误",
+        "choices": [
+            "正确",
+            "错误"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    },
+    {
+        "id": "5G Communication-332",
+        "question": "在NFV架构中，哪个组件完成网络服务（NS）的生命周期管理？\nA: NFVO\nB: VNFM\nC: VIM\nD: PIM",
+        "choices": [
+            "NFVO",
+            "VNFM",
+            "VIM",
+            "PIM"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-337",
+        "question": "n41的频带范围是？\nA: 2496MHz-2690MHz\nB: 663MHz-698MHz\nC: 3300MHz-4200MHz\nD: 880MHz-915MHz",
+        "choices": [
+            "2496MHz-2690MHz",
+            "663MHz-698MHz",
+            "3300MHz-4200MHz",
+            "880MHz-915MHz"
+        ],
+        "qtype": 0,
+        "answer": "A",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "A",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-338",
+        "question": "NR子载波配置为30Khz时，其对应每时隙的符号数和时隙数分别是多少？\nA: 14；40\nB: 14；20\nC: 12；20\nD: 12；40",
+        "choices": [
+            "14；40",
+            "14；20",
+            "12；20",
+            "12；40"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "A!\n\nB: 14；20",
+        "gemma-7b-answer": "B",
+        "llama3-8b-iscorrect": false,
+        "gemma-7b-iscorrect": true
+    },
+    {
+        "id": "5G Communication-341",
+        "question": "NR上下行分别使用什么多址技术\nA: OFDMA，OFDMA\nB: OFDMA或SC-FDMA、OFDMA\nC: OFDMA或SC-FDMA、OFDMA或SC-FDMA\nD: SC-FDMA、OFDMA",
+        "choices": [
+            "OFDMA，OFDMA",
+            "OFDMA或SC-FDMA、OFDMA",
+            "OFDMA或SC-FDMA、OFDMA或SC-FDMA",
+            "SC-FDMA、OFDMA"
+        ],
+        "qtype": 0,
+        "answer": "B",
+        "solution": "",
+        "llama3-8b-answer": "B",
+        "gemma-7b-answer": "C",
+        "llama3-8b-iscorrect": true,
+        "gemma-7b-iscorrect": false
+    }
+]

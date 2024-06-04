@@ -105,7 +105,7 @@
         "solution": "",
         "id": "Oracle Database-82",
         "llama3-8b-answer": "D",
-        "gemma-7b-answer": "**C.**\n\n\u8be5\u67e5\u8be2\u7684\u76ee\u7684\u662f\u8fd4\u56de\u4e0b\u6708\u7b2c\u4e00\u4e2a\u661f\u671f\u4e00\u65e5\u671f\u3002",
+        "gemma-7b-answer": "**C.**\n\n该查询的目的是返回下月第一个星期一日期。",
         "llama3-8b-iscorrect": false,
         "gemma-7b-iscorrect": true
     },
@@ -270,7 +270,7 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "97.\u5206\u6790\u4ee5\u4e0b\u6210\u529f\u6267\u884c\u7684\u8bed\u53e5\uff1a\nCREATE TABLE rental (\nrental id int unsigned NOT NULL AUTO INCREMENT,\nrental date datetime NOT NULL,\ninventory id int unsigned NoT NULL,\ncustomer id int unsigned NOT NULL,\nreturn date datetime DEFAULT NULL,\nstaff id int unsigned NoT NULL,\nIast update timestamp NOT NULL DEFAULT CURRENT TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\nPRIMARY KEY (rental iD. \nENGINE-InnoDB;\n\u73b0\u5728\uff0c\u68c0\u67e5\u4ee5\u4e0b\u67e5\u8be2\uff1a\nSELECT rental_id,customer_id\nFROM rental\nwhere rental_date between now() - interval 1 month and now()\nAND inventory_id=42\nAND staff_id=1024;\n\u60a8\u5e0c\u671b\u6dfb\u52a0\u4e00\u4e2a\u6216\u591a\u4e2a\u7d22\u5f15\uff0c\u6700\u5927\u7a0b\u5ea6\u5730\u51cf\u5c11\u67e5\u8be2\u5de5\u4f5c\u91cf\u3002\n\u4ee5\u4e0b\u54ea\u6761\u8bed\u53e5\u53ef\u5b8c\u6210\u6b64\u4efb\u52a1\uff1f\nA.  ALTER TABLE rental\nADD INDEx(inventory_iD. ,\nADD INDEX (staff_iD. \nADD INDEX (rental_datE. ,\nADD INDEx (customer_iD. ;\nB. ALTER TABLE rental\nADD INDEx (inventory_id, staff_id,rental_date,customer_iD. ;\nC.  ALTER TABLE rental\nADD INDEx (inventory_id,staff_id customer_id, rental_id, rental_datE. ;\nD.  ALTER TABLE rental\nADD INDEX (inventory_iD. ,\nADD INDEX (staff_iD. \nADD INDEX (rental_datE. :\nE.  ALTER TABLE rental\nADD INDEx (rental_date,inventory_id, staff_id, customer_iD. ;\nF.  ALTER TABLE rental ADD INDEX (inventory_id,staff_id,rental_datE. ;",
+        "question": "97.分析以下成功执行的语句：\nCREATE TABLE rental (\nrental id int unsigned NOT NULL AUTO INCREMENT,\nrental date datetime NOT NULL,\ninventory id int unsigned NoT NULL,\ncustomer id int unsigned NOT NULL,\nreturn date datetime DEFAULT NULL,\nstaff id int unsigned NoT NULL,\nIast update timestamp NOT NULL DEFAULT CURRENT TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,\nPRIMARY KEY (rental iD. \nENGINE-InnoDB;\n现在，检查以下查询：\nSELECT rental_id,customer_id\nFROM rental\nwhere rental_date between now() - interval 1 month and now()\nAND inventory_id=42\nAND staff_id=1024;\n您希望添加一个或多个索引，最大程度地减少查询工作量。\n以下哪条语句可完成此任务？\nA.  ALTER TABLE rental\nADD INDEx(inventory_iD. ,\nADD INDEX (staff_iD. \nADD INDEX (rental_datE. ,\nADD INDEx (customer_iD. ;\nB. ALTER TABLE rental\nADD INDEx (inventory_id, staff_id,rental_date,customer_iD. ;\nC.  ALTER TABLE rental\nADD INDEx (inventory_id,staff_id customer_id, rental_id, rental_datE. ;\nD.  ALTER TABLE rental\nADD INDEX (inventory_iD. ,\nADD INDEX (staff_iD. \nADD INDEX (rental_datE. :\nE.  ALTER TABLE rental\nADD INDEx (rental_date,inventory_id, staff_id, customer_iD. ;\nF.  ALTER TABLE rental ADD INDEX (inventory_id,staff_id,rental_datE. ;",
         "answer": "B",
         "solution": "",
         "id": "Oracle Database-251",
@@ -280,7 +280,7 @@
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "132.\u4ee5\u4e0b\u54ea\u79cd\u5907\u4efd\u65b9\u5f0f\u9700\u8981\u5728\u5b8c\u5168\u5173\u95ed\u6570\u636e\u5e93\u8fdb\u884c \u3002\nA.\u65e0\u5f52\u6863\u65e5\u5fd7\u6a21\u5f0f\u4e0b\u7684\u6570\u636e\u5e93\u5907\u4efd\nB.\u5f52\u6863\u65e5\u5fd7\u6a21\u5f0f\u4e0b\u7684\u6570\u636e\u5e93\u5907\u4efd\nC.\u4f7f\u7528\u5bfc\u51fa\u5b9e\u7528\u7a0b\u5e8f\u8fdb\u884c\u903b\u8f91\u5907\u4efd\nD.\u4ee5\u4e0a\u90fd\u4e0d\u5bf9",
+        "question": "132.以下哪种备份方式需要在完全关闭数据库进行 。\nA.无归档日志模式下的数据库备份\nB.归档日志模式下的数据库备份\nC.使用导出实用程序进行逻辑备份\nD.以上都不对",
         "answer": "A",
         "solution": "",
         "id": "Oracle Database-252",
@@ -290,7 +290,7 @@
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "\u5173\u4e8e\u590d\u5408\u67e5\u8be2\u4e2d\u4f7f\u7528\u7684INTERSECT\u8fd0\u7b97\u7b26\uff0c\u54ea\u4e2a\u9648\u8ff0\u662f\u6b63\u786e\u7684\uff1f\nA. \u5b83\u5ffd\u7565NULL\u503c\u3002\nB. INTERSECT\u7684\u4f18\u5148\u7ea7\u4f4e\u4e8eUNION\u6216UNION ALL\u3002\nC. \u540c\u4e00SQL\u8bed\u53e5\u4e2d\u4e0d\u53ef\u80fd\u6709\u591a\u4e2aINTERSECT\u8fd0\u7b97\u7b26\u3002\nD. \u5b83\u5904\u7406\u6240\u9009\u5217\u4e2d\u7684NULL\u503c\u3002",
+        "question": "关于复合查询中使用的INTERSECT运算符，哪个陈述是正确的？\nA. 它忽略NULL值。\nB. INTERSECT的优先级低于UNION或UNION ALL。\nC. 同一SQL语句中不可能有多个INTERSECT运算符。\nD. 它处理所选列中的NULL值。",
         "answer": "D",
         "solution": "",
         "id": "Oracle Database-254",
@@ -300,7 +300,7 @@
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "\"\u68c0\u67e5EMPLOYEES\u8868\u7684\u63cf\u8ff0\uff1a\n\u540d\u79f0 Null? \u7c7b\u578b\n-------------------------------------------------- ----------\nEMPLOYEE_ID NOT NULL NUMBER(4)\nEMPLOYEE_NAME NOT NULL VARCHAR2 (100)\nSALARY NOT NULL NUMBER(6,2)\u3002\nDEPARTMENT_ID NOT NULL NUMBER(4)\n\u54ea\u4e2a\u8bed\u53e5\u4f1a\u5931\u8d25\uff1f\nA.  SELECT department_id, COUNT(*)\nFROM employees\nWHERE department_id <> 90\nHAVING COUNT(*) >= 3\nGROUP BY department_id;\nB.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id <> 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\nC.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id < 90\nGROUP BY department_id\nHAVING COUNT(*) >= 3;\nD.  SELECT department_id, COUNT (*)\nFROM employees\nHAVING department_id < 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\"",
+        "question": "\"检查EMPLOYEES表的描述：\n名称 Null? 类型\n-------------------------------------------------- ----------\nEMPLOYEE_ID NOT NULL NUMBER(4)\nEMPLOYEE_NAME NOT NULL VARCHAR2 (100)\nSALARY NOT NULL NUMBER(6,2)。\nDEPARTMENT_ID NOT NULL NUMBER(4)\n哪个语句会失败？\nA.  SELECT department_id, COUNT(*)\nFROM employees\nWHERE department_id <> 90\nHAVING COUNT(*) >= 3\nGROUP BY department_id;\nB.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id <> 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\nC.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id < 90\nGROUP BY department_id\nHAVING COUNT(*) >= 3;\nD.  SELECT department_id, COUNT (*)\nFROM employees\nHAVING department_id < 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\"",
         "answer": "B",
         "solution": "",
         "id": "Oracle Database-260",
@@ -310,7 +310,7 @@
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "154.\u4e0b\u5217\u53d9\u8ff0\u4e2d\u6b63\u786e\u7684\u662f\u3002\nA.\u6570\u636e\u5e93\u662f\u4e00\u4e2a\u72ec\u7acb\u7684\u7cfb\u7edf\uff0c\u4e0d\u9700\u8981\u64cd\u4f5c\u7cfb\u7edf\u7684\u652f\u6301\nB.\u6570\u636e\u5e93\u8bbe\u8ba1\u662f\u6307\u8bbe\u8ba1\u6570\u636e\u5e93\u7ba1\u7406\u7cfb\u7edf\nC.\u6570\u636e\u5e93\u6280\u672f\u7684\u6839\u672c\u76ee\u6807\u662f\u8981\u89e3\u51b3\u6570\u636e\u5171\u4eab\u7684\u95ee\u9898\nD.\u6570\u636e\u5e93\u7cfb\u7edf\u4e2d\uff0c\u6570\u636e\u7684\u7269\u7406\u7ed3\u6784\u5fc5\u987b\u4e0e\u903b\u8f91\u7ed3\u6784\u4e00\u81f4",
+        "question": "154.下列叙述中正确的是。\nA.数据库是一个独立的系统，不需要操作系统的支持\nB.数据库设计是指设计数据库管理系统\nC.数据库技术的根本目标是要解决数据共享的问题\nD.数据库系统中，数据的物理结构必须与逻辑结构一致",
         "answer": "C",
         "solution": "",
         "id": "Oracle Database-264",
@@ -320,17 +320,17 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "9.\u4e0b\u5217\u5173\u4e8e\u8fd8\u539f\u4e0e\u6062\u590d\u8bf4\u6cd5\u6b63\u786e\u7684\u662f\uff1f\nA.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u65e0\u6cd5\u8fd8\u539f\u6570\u636e\u5e93\nB.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93\nC.\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ea\u80fd\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u65e0\u6cd5\u6062\u590d\u6570\u636e\u5e93\nD.\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u65e2\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93",
+        "question": "9.下列关于还原与恢复说法正确的是？\nA.非归档模式下，无法还原数据库\nB.非归档模式下，可以还原数据库，也可以恢复数据库\nC.归档模式下，只能还原数据库，无法恢复数据库\nD.归档模式下，既可以还原数据库，也可以恢复数据库",
         "answer": "D",
         "solution": "",
         "id": "Oracle Database-268",
-        "llama3-8b-answer": "B.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93",
+        "llama3-8b-answer": "B.非归档模式下，可以还原数据库，也可以恢复数据库",
         "gemma-7b-answer": "D",
         "llama3-8b-iscorrect": false,
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "95\u3001\u68c0\u67e5\u4ee5\u4e0b\u914d\u7f6e\uff1a\n1. cdb1\u662f\u4e00\u4e2a\u5bb9\u5668\u6570\u636e\u5e93\u3002\n2. \u5728CDB1\u4e2d\u6709\u591a\u4e2a\u53ef\u63d2\u5165\u6570\u636e\u5e93\uff08PDBS\uff09\u3002\n5. \u6bcf\u4e2aPDB\u90fd\u6709\u591a\u4e2a\u5e26\u6709\u5f15\u7528\u5b8c\u6574\u6027\u7ea6\u675f\u7684\u8868\u3002\n6. FLASHBACK DATABASE\u5df2\u5f00\u542f\u3002\n7. UNDO RETENTION GUARANTEE\u5df2\u542f\u7528\u3002\n\u5728\u6240\u6709PDBS\u4e2d\u8fdb\u884c\u4e86\u591a\u4e2a\u4e0d\u9700\u8981\u7684\u591a\u8868\u66f4\u6539\u3002\u4f7f\u7528\u54ea\u79cd\u65b9\u6cd5\u53ef\u4ee5\u4f7f\u7528\u5355\u4e2a\u547d\u4ee4\u64a4\u6d88\u66f4\u6539\uff1f\nA. \u95ea\u56de\u6570\u636e\u5e93\nB. \u95ea\u56de\u8868\u548c\u4e8b\u52a1\nC. \u95ea\u56de\u4e8b\u52a1\nD. \u95ea\u56de\u8868\nE. \u6062\u590d\u548c\u6062\u590d\u6570\u636e\u5e93",
+        "question": "95、检查以下配置：\n1. cdb1是一个容器数据库。\n2. 在CDB1中有多个可插入数据库（PDBS）。\n5. 每个PDB都有多个带有引用完整性约束的表。\n6. FLASHBACK DATABASE已开启。\n7. UNDO RETENTION GUARANTEE已启用。\n在所有PDBS中进行了多个不需要的多表更改。使用哪种方法可以使用单个命令撤消更改？\nA. 闪回数据库\nB. 闪回表和事务\nC. 闪回事务\nD. 闪回表\nE. 恢复和恢复数据库",
         "answer": "A",
         "solution": "",
         "id": "Oracle Database-276",
@@ -340,7 +340,7 @@
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "23.\u5728Windows\u64cd\u4f5c\u7cfb\u7edf\u4e2d\uff0cOracle\u7684 \u670d\u52a1\u662f\u4f7f\u7528iSQL*Plus\u5fc5\u987b\u7684\u3002\nA.OracleHOME_NAMETNSListener\nB.OracleServiceSID\nC.OracleHOME_NAMEAgent\nD.OracleHOME_NAMEHTTPServer",
+        "question": "23.在Windows操作系统中，Oracle的 服务是使用iSQL*Plus必须的。\nA.OracleHOME_NAMETNSListener\nB.OracleServiceSID\nC.OracleHOME_NAMEAgent\nD.OracleHOME_NAMEHTTPServer",
         "answer": "B",
         "solution": "",
         "id": "Oracle Database-277",
@@ -350,7 +350,7 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "\"\u9009\u62e9\u6700\u4f73\u7b54\u6848\n\u60a8\u60f3\u7f16\u5199\u4e00\u4e2a\u67e5\u8be2\uff0c\u6bcf\u6b21\u5728\u4f1a\u8bdd\u4e2d\u6267\u884c\u65f6\u63d0\u793a\u4e24\u4e2a\u5217\u540d\u548cWHERE\u6761\u4ef6\uff0c\u4f46\u4ec5\u5728\u7b2c\u4e00\u6b21\u6267\u884c\u65f6\u63d0\u793a\u8868\u540d\u3002\n\u60a8\u67e5\u8be2\u4e2d\u4f7f\u7528\u7684\u53d8\u91cf\u5728\u4f1a\u8bdd\u4e2d\u4ece\u672a\u672a\u5b9a\u4e49\u3002\n\u54ea\u4e2a\u67e5\u8be2\u53ef\u4ee5\u4f7f\u7528\uff1f\nA.  SELECT &col1, &col2\nFROM &&table\nWHERE &condition:\nB.  SELECT &col1,&scol2\nFROM \"&table\"\nWHERE &condition;\nC.  SELECT &&col1, &&col2\nFROM &table\nWHERE &&condition = &&cond;\nD.  SEIECT '&&col1', '&&col2'\nFROM &table\nWHERE '&&condition' = '&cond';\nE.  SELECT &&col1, &&col2\nFROM &table\nWHERE &&condition;\"",
+        "question": "\"选择最佳答案\n您想编写一个查询，每次在会话中执行时提示两个列名和WHERE条件，但仅在第一次执行时提示表名。\n您查询中使用的变量在会话中从未未定义。\n哪个查询可以使用？\nA.  SELECT &col1, &col2\nFROM &&table\nWHERE &condition:\nB.  SELECT &col1,&scol2\nFROM \"&table\"\nWHERE &condition;\nC.  SELECT &&col1, &&col2\nFROM &table\nWHERE &&condition = &&cond;\nD.  SEIECT '&&col1', '&&col2'\nFROM &table\nWHERE '&&condition' = '&cond';\nE.  SELECT &&col1, &&col2\nFROM &table\nWHERE &&condition;\"",
         "answer": "A",
         "solution": "",
         "id": "Oracle Database-280",
@@ -360,17 +360,17 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "17.\u5f53Oracle\u670d\u52a1\u5668\u542f\u52a8\u65f6\uff0c\u4e0b\u5217\u54ea\u79cd\u6587\u4ef6\u4e0d\u662f\u5fc5\u987b\u7684\nA.\u6570\u636e\u6587\u4ef6\nB.\u63a7\u5236\u6587\u4ef6\nC.\u65e5\u5fd7\u6587\u4ef6\nD.\u5f52\u6863\u65e5\u5fd7\u6587\u4ef6",
+        "question": "17.当Oracle服务器启动时，下列哪种文件不是必须的\nA.数据文件\nB.控制文件\nC.日志文件\nD.归档日志文件",
         "answer": "D",
         "solution": "",
         "id": "Oracle Database-281",
         "llama3-8b-answer": "D",
-        "gemma-7b-answer": "A\n\n\u6570\u636e\u6587\u4ef6\uff08data file\uff09\u5728Oracle\u670d\u52a1\u5668\u542f\u52a8\u65f6\u662f\u5fc5\u987b\u7684\uff0c\u800c\u63a7\u5236\u6587\u4ef6\uff08control file\uff09\u3001\u65e5\u5fd7\u6587\u4ef6\u548c\u5f52\u6863\u65e5\u5fd7\u6587\u4ef6\u662f\u53ef\u9009\u7684\u3002",
+        "gemma-7b-answer": "A\n\n数据文件（data file）在Oracle服务器启动时是必须的，而控制文件（control file）、日志文件和归档日志文件是可选的。",
         "llama3-8b-iscorrect": true,
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "84.\u5728 Oracle \u6570\u636e\u5e93\u7684\u903b\u8f91\u7ed3\u6784\u4e2d\u6709\u4ee5\u4e0b\u7ec4\u4ef6\uff1a A \u8868\u7a7a\u95f4 B \u6570\u636e\u5757 C \u533a D \u6bb5.\u8fd9\u4e9b\u7ec4\u4ef6\u4ece\u5927\u5230\u5c0f\u4f9d\u6b21\u662f\u3002\nA.A\u2192B\u2192C\u2192D\nB.A\u2192D\u2192C\u2192B\nC.A\u2192C\u2192B\u2192D\nD.D\u2192A\u2192C\u2192B",
+        "question": "84.在 Oracle 数据库的逻辑结构中有以下组件： A 表空间 B 数据块 C 区 D 段.这些组件从大到小依次是。\nA.A→B→C→D\nB.A→D→C→B\nC.A→C→B→D\nD.D→A→C→B",
         "answer": "B",
         "solution": "",
         "id": "Oracle Database-282",
@@ -380,7 +380,7 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "\u54ea\u4e2a\u8bed\u53e5\u5c06\u8fd4\u56de EMP_SEQ \u5e8f\u5217\u751f\u6210\u7684\u6700\u540e\u4e00\u4e2a\u5e8f\u5217\u53f7\uff1f\nA.  SELECT emp_seq. CURRVAL FROM DUAL;\nB.  SELECT CURRVAL FROM emp_seq;\nC.  SELECT NEXTVAL FROM emp_seq;\nD.  SELECT emp_seq . NEXTVAL FROM DUAL;",
+        "question": "哪个语句将返回 EMP_SEQ 序列生成的最后一个序列号？\nA.  SELECT emp_seq. CURRVAL FROM DUAL;\nB.  SELECT CURRVAL FROM emp_seq;\nC.  SELECT NEXTVAL FROM emp_seq;\nD.  SELECT emp_seq . NEXTVAL FROM DUAL;",
         "answer": "A",
         "solution": "",
         "id": "Oracle Database-284",
@@ -390,37 +390,37 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "70.\u4e0b\u5217\u54ea\u4e00\u4e2a\u9501\u6a21\u5f0f\u4e0d\u5c5e\u4e8e Oracle\u3002\nA.\u6b7b\u9501 B.\u6392\u4ed6\u9501 C.\u884c\u7ea7\u5171\u4eab\u9501 D.\u5171\u4eab\u9501",
+        "question": "70.下列哪一个锁模式不属于 Oracle。\nA.死锁 B.排他锁 C.行级共享锁 D.共享锁",
         "answer": "A",
         "solution": "",
         "id": "Oracle Database-285",
         "llama3-8b-answer": "D",
-        "gemma-7b-answer": "A\n\n\u6b7b\u9501\u4e0d\u662f Oracle \u4e2d\u7684\u9501\u6a21\u5f0f\u3002",
+        "gemma-7b-answer": "A\n\n死锁不是 Oracle 中的锁模式。",
         "llama3-8b-iscorrect": false,
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "184.\u68c0\u67e5\u4e0b\u5217 SQL \u8bed\u6cd5\uff1a \u7528 PRODUCTS \u8868\uff0c\u4f60\u9700\u8981\u751f\u6210\u540d\u5b57\uff0c\u5f53\u524d\u4ef7\u683c\u5217\u8868\uff0c\u53ca\u6253\u6298\u6263 25%\u540e\u5c0f\u4e8e$10 \u7684\u6240\u6709\u7684\u8fd9 \u4e9b\u4ea7\u54c1\u3002SQL>SELECT prod_name, prod_list_price, prod_list_price - (prod_list_price * .25) \"DISCOUNTED_PRICE\" FROM products WHERE discounted_price < 10; \u6b64\u67e5\u8be2\u6267\u884c\u65f6\u53d1\u751f\u4e00\u4e2a\u9519\u8bef\u3002\u6b64\u9519\u8bef\u7684\u539f\u56e0\u662f\u4ec0\u4e48\uff1f\nA.\u62ec\u53f7\u5e94\u5305\u542b\u6574\u4e2a\u8868\u8fbe\u5f0f\u3002\nB.\u53cc\u5f15\u53f7\u5e94\u8be5\u4ece\u5217\u522b\u540d\u88ab\u5220\u9664\u3002 \nC.\u5728 WHERE \u5b50\u53e5\u7684\u8868\u8fbe\u5f0f\u5e94\u88ab\u66ff\u6362\u3002 \nD.\u5217\u522b\u540d\u5e94\u4e3a\u5927\u5199\u4e14\u5728 WHERE \u5b50\u53e5\u4e2d\u7528\u53cc\u5f15\u53f7\u62ec\u8d77\u6765\u3002",
+        "question": "184.检查下列 SQL 语法： 用 PRODUCTS 表，你需要生成名字，当前价格列表，及打折扣 25%后小于$10 的所有的这 些产品。SQL>SELECT prod_name, prod_list_price, prod_list_price - (prod_list_price * .25) \"DISCOUNTED_PRICE\" FROM products WHERE discounted_price < 10; 此查询执行时发生一个错误。此错误的原因是什么？\nA.括号应包含整个表达式。\nB.双引号应该从列别名被删除。 \nC.在 WHERE 子句的表达式应被替换。 \nD.列别名应为大写且在 WHERE 子句中用双引号括起来。",
         "answer": "C",
         "solution": "",
         "id": "Oracle Database-291",
-        "llama3-8b-answer": "A.\u62ec\u53f7\u5e94\u5305\u542b\u6574\u4e2a\u8868\u8fbe\u5f0f\u3002",
+        "llama3-8b-answer": "A.括号应包含整个表达式。",
         "gemma-7b-answer": "**C**",
         "llama3-8b-iscorrect": false,
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "29.\u5728Oracle\u4e2d\uff0c\u6e38\u6807\u90fd\u5177\u6709\u4e0b\u5217\u5c5e\u6027\uff0c\u9664\u4e86\u3002\nA.%NOTFOUND\nB.%FOUND\nC.%ROWTYPE\nD.%ISOPEN\nE.%ROWCOUNT",
+        "question": "29.在Oracle中，游标都具有下列属性，除了。\nA.%NOTFOUND\nB.%FOUND\nC.%ROWTYPE\nD.%ISOPEN\nE.%ROWCOUNT",
         "answer": "C",
         "solution": "",
         "id": "Oracle Database-292",
         "llama3-8b-answer": "E. %ROWCOUNT",
-        "gemma-7b-answer": "C\n\n%ROWTYPE\u5c5e\u6027\u4e0d\u5c5e\u4e8eOracle\u6e38\u6807\u7684\u5c5e\u6027\u3002",
+        "gemma-7b-answer": "C\n\n%ROWTYPE属性不属于Oracle游标的属性。",
         "llama3-8b-iscorrect": false,
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "175.\u4f60\u60f3\u53bb\u751f\u6210\u4e00\u4e2a\u62a5\u8868\u663e\u793a\u6bcf\u4e2a\u5458\u5de5\u4ece\u5165\u804c\u4ee5\u6765\u7684\u603b\u7684\u85aa\u91d1\u3002 \u4f60\u6267\u884c\u4e0b\u5217\u67e5\u8be2\uff1a SQL>SELECT ename ' joined on ' hiredate ', the total compensation paid is ' TO_CHAR(ROUND(ROUND(SYSDATE-hiredatE. /365) * sal + comm) \"COMPENSATION UNTIL DATE\" FROM employees; \u8f93\u51fa\u7ed3\u679c\uff1a\u54ea\u4e2a\u8bf4\u6cd5\u662f\u6b63\u786e\u7684\uff1f \nA.\u6b64\u67e5\u8be2\u6267\u884c\u9519\u8bef\u662f\u56e0\u4e3a\u522b\u540d\u65e0\u6548\u7684\u3002\nB.\u6b64\u67e5\u8be2\u80fd\u6b63\u786e\u6267\u884c\u5e76\u5f97\u5230\u6b63\u786e\u7684\u7ed3\u679c\u3002\nC.\u6b64\u67e5\u8be2\u80fd\u6b63\u786e\u6267\u884c\u4f46\u4e0d\u80fd\u5f97\u5230\u6b63\u786e\u7ed3\u679c\u3002\nD.\u6b64\u67e5\u8be2\u6267\u884c\u9519\u8bef\u662f\u56e0\u4e3a ROUND \u51fd\u6570\u662f\u65e0\u6548\u7684\u3002",
+        "question": "175.你想去生成一个报表显示每个员工从入职以来的总的薪金。 你执行下列查询： SQL>SELECT ename ' joined on ' hiredate ', the total compensation paid is ' TO_CHAR(ROUND(ROUND(SYSDATE-hiredatE. /365) * sal + comm) \"COMPENSATION UNTIL DATE\" FROM employees; 输出结果：哪个说法是正确的？ \nA.此查询执行错误是因为别名无效的。\nB.此查询能正确执行并得到正确的结果。\nC.此查询能正确执行但不能得到正确结果。\nD.此查询执行错误是因为 ROUND 函数是无效的。",
         "answer": "C",
         "solution": "",
         "id": "Oracle Database-293",
@@ -430,7 +430,7 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "183.\u68c0\u67e5\u4e0b\u5217 CREATE SEQUENCE \u8bed\u6cd5\uff1a CREATE SEQUENCE seq1 START WITH 100 INCREMENT BY 10 MAXVALUE 200 CYCLE NOCACHE; \u5f53 SEQ1 \u5e8f\u5217\u751f\u6210\u5230\u6700\u5927\u503c\u4e3a 200\u3002\u4f60\u6267\u884c\u4e0b\u5217 SQL \u8bed\u6cd5\uff1a SELECT seq1.nextval FROM dual; \u6b64 SELECT \u8bed\u6cd5\u663e\u793a\u4ec0\u4e48\uff1f \nA. 1 B. 10 C. 100 D. \u51fa\u73b0\u9519\u8bef",
+        "question": "183.检查下列 CREATE SEQUENCE 语法： CREATE SEQUENCE seq1 START WITH 100 INCREMENT BY 10 MAXVALUE 200 CYCLE NOCACHE; 当 SEQ1 序列生成到最大值为 200。你执行下列 SQL 语法： SELECT seq1.nextval FROM dual; 此 SELECT 语法显示什么？ \nA. 1 B. 10 C. 100 D. 出现错误",
         "answer": "A",
         "solution": "",
         "id": "Oracle Database-295",
@@ -440,7 +440,7 @@
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "168. \u662f\u542f\u52a8\u6570\u636e\u5e93\u65f6\u7528\u6765\u8bb0\u5f55\u6570\u636e\u6587\u4ef6\u3001\u8054\u673a\u65e5\u5fd7\u6587\u4ef6\u7684\u76f8\u5173\u4fe1\u606f\u7684\u4e8c\u8fdb\u5236\u6587\u4ef6\u3002\nA.\u6570\u636e\u6587\u4ef6 \nB.\u53c2\u6570\u6587\u4ef6 \nC.\u63a7\u5236\u6587\u4ef6 \nD.\u5f52\u6863\u6587\u4ef6",
+        "question": "168. 是启动数据库时用来记录数据文件、联机日志文件的相关信息的二进制文件。\nA.数据文件 \nB.参数文件 \nC.控制文件 \nD.归档文件",
         "answer": "C",
         "solution": "",
         "id": "Oracle Database-297",
@@ -450,7 +450,7 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "4.\u4e0b\u9762\u54ea\u4e00\u9879\u4e0d\u5c5e\u4e8e\u5728\u7ebf\u65e5\u5fd7\u7ec4\u7684\u72b6\u6001\uff1f\nA.UNUSED\nB.NOACTIVE\nC.INACTIVE\nD.ACTIVEE.CURRENT",
+        "question": "4.下面哪一项不属于在线日志组的状态？\nA.UNUSED\nB.NOACTIVE\nC.INACTIVE\nD.ACTIVEE.CURRENT",
         "answer": "B",
         "solution": "",
         "id": "Oracle Database-305",
@@ -460,7 +460,7 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "141.\u68c0\u67e5\u4e0b\u9762\u7684 SQL \u8bed\u53e5\uff0c\u54ea\u4e00\u9879\u662f\u9519\u8bef\u7684\uff1f Alter user tempuser identified by oracle default tablespace users default temporary tablespace temp quota 100M on users; \nA.default tablespace users \nB.default temporary tablespace temp \nC.quota 100M on users\nD.identified by oracle",
+        "question": "141.检查下面的 SQL 语句，哪一项是错误的？ Alter user tempuser identified by oracle default tablespace users default temporary tablespace temp quota 100M on users; \nA.default tablespace users \nB.default temporary tablespace temp \nC.quota 100M on users\nD.identified by oracle",
         "answer": "B",
         "solution": "",
         "id": "Oracle Database-314",
@@ -470,17 +470,17 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "80.\u5f53 Oracle \u670d\u52a1\u5668\u542f\u52a8\u65f6\uff0c\u4e0b\u5217\u54ea\u79cd\u6587\u4ef6\u4e0d\u662f\u5fc5\u987b\u7684\u3002\nA.\u6570\u636e\u6587\u4ef6 \nB.\u63a7\u5236\u6587\u4ef6 \nC.\u65e5\u5fd7\u6587\u4ef6 \nD.\u5f52\u6863\u65e5\u5fd7\u6587\u4ef6",
+        "question": "80.当 Oracle 服务器启动时，下列哪种文件不是必须的。\nA.数据文件 \nB.控制文件 \nC.日志文件 \nD.归档日志文件",
         "answer": "D",
         "solution": "",
         "id": "Oracle Database-316",
         "llama3-8b-answer": "D",
-        "gemma-7b-answer": "A\n\n\u6570\u636e\u6587\u4ef6\u662f\u5fc5\u987b\u7684\uff0c\u63a7\u5236\u6587\u4ef6\u548c\u65e5\u5fd7\u6587\u4ef6\u4e0d\u662f\u5fc5\u987b\u7684\u3002",
+        "gemma-7b-answer": "A\n\n数据文件是必须的，控制文件和日志文件不是必须的。",
         "llama3-8b-iscorrect": true,
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "\"\u68c0\u67e5EMPLOYEES\u8868\u7684\u63cf\u8ff0\uff1a\n\u540d\u79f0 Null? \u7c7b\u578b\n-------------------------------------------------- ----------\nEMPLOYEE_ID NOT NULL NUMBER(4)\nEMPLOYEE_NAME NOT NULL VARCHAR2 (100)\nSALARY NOT NULL NUMBER(6,2)\u3002\nDEPARTMENT_ID NOT NULL NUMBER(4)\n\u54ea\u4e2a\u8bed\u53e5\u4f1a\u5931\u8d25\uff1f\nA.  SELECT department_id, COUNT(*)\nFROM employees\nWHERE department_id <> 90\nHAVING COUNT(*) >= 3\nGROUP BY department_id;\nB.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id <> 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\nC.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id < 90\nGROUP BY department_id\nHAVING COUNT(*) >= 3;\nD.  SELECT department_id, COUNT (*)\nFROM employees\nHAVING department_id < 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\"",
+        "question": "\"检查EMPLOYEES表的描述：\n名称 Null? 类型\n-------------------------------------------------- ----------\nEMPLOYEE_ID NOT NULL NUMBER(4)\nEMPLOYEE_NAME NOT NULL VARCHAR2 (100)\nSALARY NOT NULL NUMBER(6,2)。\nDEPARTMENT_ID NOT NULL NUMBER(4)\n哪个语句会失败？\nA.  SELECT department_id, COUNT(*)\nFROM employees\nWHERE department_id <> 90\nHAVING COUNT(*) >= 3\nGROUP BY department_id;\nB.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id <> 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\nC.  SELECT department_id, COUNT (*)\nFROM employees\nWHERE department_id < 90\nGROUP BY department_id\nHAVING COUNT(*) >= 3;\nD.  SELECT department_id, COUNT (*)\nFROM employees\nHAVING department_id < 90\nAND COUNT(*) >= 3\nGROUP BY department_id;\"",
         "answer": "B",
         "solution": "",
         "id": "Oracle Database-322",
@@ -490,27 +490,27 @@
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "9.\u4e0b\u5217\u5173\u4e8e\u8fd8\u539f\u4e0e\u6062\u590d\u8bf4\u6cd5\u6b63\u786e\u7684\u662f\uff1f\nA.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u65e0\u6cd5\u8fd8\u539f\u6570\u636e\u5e93\nB.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93\nC.\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ea\u80fd\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u65e0\u6cd5\u6062\u590d\u6570\u636e\u5e93\nD.\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u65e2\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93",
+        "question": "9.下列关于还原与恢复说法正确的是？\nA.非归档模式下，无法还原数据库\nB.非归档模式下，可以还原数据库，也可以恢复数据库\nC.归档模式下，只能还原数据库，无法恢复数据库\nD.归档模式下，既可以还原数据库，也可以恢复数据库",
         "answer": "D",
         "solution": "",
         "id": "Oracle Database-326",
-        "llama3-8b-answer": "B.\u975e\u5f52\u6863\u6a21\u5f0f\u4e0b\uff0c\u53ef\u4ee5\u8fd8\u539f\u6570\u636e\u5e93\uff0c\u4e5f\u53ef\u4ee5\u6062\u590d\u6570\u636e\u5e93",
+        "llama3-8b-answer": "B.非归档模式下，可以还原数据库，也可以恢复数据库",
         "gemma-7b-answer": "D",
         "llama3-8b-iscorrect": false,
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "104.\u5728 sqlplus \u4e2d\u4f7f\u7528 create user \u547d\u4ee4\u521b\u5efa\u7528\u6237\u540e\uff0c\u8be5\u7528\u6237\u6ca1\u6709\u4efb\u4f55\u6743\u9650\u3002\nA.\u662f \nB.\u5426",
+        "question": "104.在 sqlplus 中使用 create user 命令创建用户后，该用户没有任何权限。\nA.是 \nB.否",
         "answer": "A",
         "solution": "",
         "id": "Oracle Database-328",
         "llama3-8b-answer": "B.",
-        "gemma-7b-answer": "A.\n\ncreate user \u547d\u4ee4\u9ed8\u8ba4\u4e0d\u6388\u4e88\u4efb\u4f55\u6743\u9650\u3002",
+        "gemma-7b-answer": "A.\n\ncreate user 命令默认不授予任何权限。",
         "llama3-8b-iscorrect": false,
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "121.PL/SQL \u5757\u4e2d\u4e0d\u80fd\u76f4\u63a5\u4f7f\u7528\u7684 SQL \u547d\u4ee4\u662f \u3002\nA.SELECT\nB.INSERT\nC.UPDATE\nD.DROP",
+        "question": "121.PL/SQL 块中不能直接使用的 SQL 命令是 。\nA.SELECT\nB.INSERT\nC.UPDATE\nD.DROP",
         "answer": "D",
         "solution": "",
         "id": "Oracle Database-334",
@@ -520,7 +520,7 @@
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "166. \u8bed\u8a00\u662f\u8fc7\u7a0b\u5316 SQL \u7684\u7f29\u5199\nA.SQL \nB.Tran-SQL \nC.PL/SQL\nD.\u4ee5\u4e0a\u90fd\u4e0d\u5bf9",
+        "question": "166. 语言是过程化 SQL 的缩写\nA.SQL \nB.Tran-SQL \nC.PL/SQL\nD.以上都不对",
         "answer": "C",
         "solution": "",
         "id": "Oracle Database-342",
@@ -530,7 +530,7 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "2.Oracle NET \u76f8\u5173\u7684\u4e09\u4e2a\u6587\u4ef6\u5177\u4f53\u8def\u5f84\u5728\u4ec0\u4e48\u5730\u65b9\uff1f\nA.$ORACLE_HOME/dbs\nB.$ORACLE_HOME/network/admin\nC.$ORACLE_HOME/network/dbs\nD.$ORACLE_HOME/admin",
+        "question": "2.Oracle NET 相关的三个文件具体路径在什么地方？\nA.$ORACLE_HOME/dbs\nB.$ORACLE_HOME/network/admin\nC.$ORACLE_HOME/network/dbs\nD.$ORACLE_HOME/admin",
         "answer": "B",
         "solution": "",
         "id": "Oracle Database-346",
@@ -540,7 +540,7 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "123.\u8981\u66f4\u65b0\u6e38\u6807\u7ed3\u679c\u96c6\u4e2d\u7684\u5f53\u524d\u884c\uff0c\u5e94\u4f7f\u7528 \u5b50\u53e5\nA.WHERE CURRENT OF\nB.FOR UPDATE\nC.FOR DELETE\nD.FOR MODIFY",
+        "question": "123.要更新游标结果集中的当前行，应使用 子句\nA.WHERE CURRENT OF\nB.FOR UPDATE\nC.FOR DELETE\nD.FOR MODIFY",
         "answer": "A",
         "solution": "",
         "id": "Oracle Database-347",
@@ -550,7 +550,7 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "\u5173\u4e8e\u590d\u5408\u67e5\u8be2\u4e2d\u4f7f\u7528\u7684INTERSECT\u8fd0\u7b97\u7b26\uff0c\u54ea\u4e2a\u9648\u8ff0\u662f\u6b63\u786e\u7684\uff1f\nA. \u5b83\u5ffd\u7565NULL\u503c\u3002\nB. INTERSECT\u7684\u4f18\u5148\u7ea7\u4f4e\u4e8eUNION\u6216UNION ALL\u3002\nC. \u540c\u4e00SQL\u8bed\u53e5\u4e2d\u4e0d\u53ef\u80fd\u6709\u591a\u4e2aINTERSECT\u8fd0\u7b97\u7b26\u3002\nD. \u5b83\u5904\u7406\u6240\u9009\u5217\u4e2d\u7684NULL\u503c\u3002",
+        "question": "关于复合查询中使用的INTERSECT运算符，哪个陈述是正确的？\nA. 它忽略NULL值。\nB. INTERSECT的优先级低于UNION或UNION ALL。\nC. 同一SQL语句中不可能有多个INTERSECT运算符。\nD. 它处理所选列中的NULL值。",
         "answer": "D",
         "solution": "",
         "id": "Oracle Database-349",
@@ -560,7 +560,7 @@
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "41.\u5173\u4e8e TRUNCATE \u548c DELETE \u547d\u4ee4\uff0c\u4e0b\u5217\u63cf\u8ff0\u6b63\u786e\u7684\u662f\nA.\u4e24\u8005\u90fd\u5c5e\u4e8e DML \u8bed\u53e5\u3002 \nB.\u4e24\u8005\u90fd\u4e0d\u5c5e\u4e8e DML \u8bed\u53e5\u3002 \nC.\u6267\u884c TRUNCATE \u547d\u4ee4\u4e4b\u540e\uff0c\u8be5\u4f1a\u8bdd\u4e2d\u5148\u524d\u672a\u63d0\u4ea4\u7684\u4e8b\u52a1\u81ea\u52a8\u63d0\u4ea4\u3002 \nD.\u6267\u884c TRUNCATE \u547d\u4ee4\u4e4b\u540e\uff0c\u8be5\u4f1a\u8bdd\u4e2d\u5148\u524d\u672a\u63d0\u4ea4\u7684\u4e8b\u52a1\u81ea\u52a8\u56de\u6eda\u3002",
+        "question": "41.关于 TRUNCATE 和 DELETE 命令，下列描述正确的是\nA.两者都属于 DML 语句。 \nB.两者都不属于 DML 语句。 \nC.执行 TRUNCATE 命令之后，该会话中先前未提交的事务自动提交。 \nD.执行 TRUNCATE 命令之后，该会话中先前未提交的事务自动回滚。",
         "answer": "C",
         "solution": "",
         "id": "Oracle Database-356",
@@ -570,27 +570,27 @@
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "184.\u68c0\u67e5\u4e0b\u5217 SQL \u8bed\u6cd5\uff1a \u7528 PRODUCTS \u8868\uff0c\u4f60\u9700\u8981\u751f\u6210\u540d\u5b57\uff0c\u5f53\u524d\u4ef7\u683c\u5217\u8868\uff0c\u53ca\u6253\u6298\u6263 25%\u540e\u5c0f\u4e8e$10 \u7684\u6240\u6709\u7684\u8fd9 \u4e9b\u4ea7\u54c1\u3002SQL>SELECT prod_name, prod_list_price, prod_list_price - (prod_list_price * .25) \"DISCOUNTED_PRICE\" FROM products WHERE discounted_price < 10; \u6b64\u67e5\u8be2\u6267\u884c\u65f6\u53d1\u751f\u4e00\u4e2a\u9519\u8bef\u3002\u6b64\u9519\u8bef\u7684\u539f\u56e0\u662f\u4ec0\u4e48\uff1f\nA.\u62ec\u53f7\u5e94\u5305\u542b\u6574\u4e2a\u8868\u8fbe\u5f0f\u3002\nB.\u53cc\u5f15\u53f7\u5e94\u8be5\u4ece\u5217\u522b\u540d\u88ab\u5220\u9664\u3002 \nC.\u5728 WHERE \u5b50\u53e5\u7684\u8868\u8fbe\u5f0f\u5e94\u88ab\u66ff\u6362\u3002 \nD.\u5217\u522b\u540d\u5e94\u4e3a\u5927\u5199\u4e14\u5728 WHERE \u5b50\u53e5\u4e2d\u7528\u53cc\u5f15\u53f7\u62ec\u8d77\u6765\u3002",
+        "question": "184.检查下列 SQL 语法： 用 PRODUCTS 表，你需要生成名字，当前价格列表，及打折扣 25%后小于$10 的所有的这 些产品。SQL>SELECT prod_name, prod_list_price, prod_list_price - (prod_list_price * .25) \"DISCOUNTED_PRICE\" FROM products WHERE discounted_price < 10; 此查询执行时发生一个错误。此错误的原因是什么？\nA.括号应包含整个表达式。\nB.双引号应该从列别名被删除。 \nC.在 WHERE 子句的表达式应被替换。 \nD.列别名应为大写且在 WHERE 子句中用双引号括起来。",
         "answer": "C",
         "solution": "",
         "id": "Oracle Database-360",
-        "llama3-8b-answer": "A. \u62ec\u53f7\u5e94\u5305\u542b\u6574\u4e2a\u8868\u8fbe\u5f0f\u3002",
+        "llama3-8b-answer": "A. 括号应包含整个表达式。",
         "gemma-7b-answer": "C",
         "llama3-8b-iscorrect": false,
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "47.MARKS \u8868\u7ed3\u6784\u5982\u4e0b :STD_ID NUMBER(4) STUDENT_NAME VARCHAR2(30) SUBJ1 NUMBER(3) SUBJ2 NUMBER(3)\u4e0b\u9762 sql \u8bed\u53e5\u4e2d\u662f\u5426\u5b58\u5728\u9519\u8bef SELECT subj1+subj2 total_marks, std_id FROM marks WHERE subj1 > AVG(subj1) AND subj2 > AVG(subj2) ORDER BY total_marks; \u5982\u679c\u6709\u9519\u8bef\uff0c\u8bf7\u6307\u51fa\u662f\u54ea\u4e00\u9879\uff1f\nA.\u80fd\u591f\u6210\u529f\u6267\u884c\nB.SELECT \u5b50\u53e5\u4e2d\u6709\u9519\u8bef\nC.WHERE \u5b50\u53e5\u4e2d\u6709\u9519\u8bef\nD.ORDER BY\u5b50\u53e5\u4e2d\u6709\u9519\u8bef",
+        "question": "47.MARKS 表结构如下 :STD_ID NUMBER(4) STUDENT_NAME VARCHAR2(30) SUBJ1 NUMBER(3) SUBJ2 NUMBER(3)下面 sql 语句中是否存在错误 SELECT subj1+subj2 total_marks, std_id FROM marks WHERE subj1 > AVG(subj1) AND subj2 > AVG(subj2) ORDER BY total_marks; 如果有错误，请指出是哪一项？\nA.能够成功执行\nB.SELECT 子句中有错误\nC.WHERE 子句中有错误\nD.ORDER BY子句中有错误",
         "answer": "C",
         "solution": "",
         "id": "Oracle Database-361",
         "llama3-8b-answer": "B.",
-        "gemma-7b-answer": "C\n\nWHERE \u5b50\u53e5\u4e2d\u6709\u9519\u8bef\u3002AVG() \u51fd\u6570\u9700\u8981\u4e00\u4e2a\u7ec4\u51fd\u6570\u8bcd\uff08\u4f8b\u5982 SUM()\u3001COUNT() \u6216 AVG()\uff09\u4f5c\u4e3a\u5176\u7b2c\u4e00\u4e2a\u53c2\u6570\uff0c\u4f46 SUBJ1 \u548c SUBJ2 \u5217\u6ca1\u6709\u8fdb\u884c\u5206\u7ec4\u3002",
+        "gemma-7b-answer": "C\n\nWHERE 子句中有错误。AVG() 函数需要一个组函数词（例如 SUM()、COUNT() 或 AVG()）作为其第一个参数，但 SUBJ1 和 SUBJ2 列没有进行分组。",
         "llama3-8b-iscorrect": false,
         "gemma-7b-iscorrect": true
     },
     {
-        "question": "86.\u5728 Windows \u64cd\u4f5c\u7cfb\u7edf\u4e2d\uff0cOracle \u7684 \u670d\u52a1\u662f\u4f7f\u7528 iSQL*Plus \u5fc5\u987b\u7684\u3002\nA.OracleHOME_NAMETNSListener \nB.OracleServiceSID \nC.OracleHOME_NAMEAgent \nD.OracleHOME_NAMEHTTPServer",
+        "question": "86.在 Windows 操作系统中，Oracle 的 服务是使用 iSQL*Plus 必须的。\nA.OracleHOME_NAMETNSListener \nB.OracleServiceSID \nC.OracleHOME_NAMEAgent \nD.OracleHOME_NAMEHTTPServer",
         "answer": "B",
         "solution": "",
         "id": "Oracle Database-374",
@@ -600,7 +600,7 @@
         "gemma-7b-iscorrect": false
     },
     {
-        "question": "60.\u67e5\u770b\u5e8f\u5217DEPT_DEPTNO\u7684\u5f53\u524d\u503c\uff0c\u5e94\u8be5\u4f7f\u7528\u4f2a\u5217\nA.CURRVAL \nB.NEXTVAL \nC.MAXVAL \nD.MINVAL",
+        "question": "60.查看序列DEPT_DEPTNO的当前值，应该使用伪列\nA.CURRVAL \nB.NEXTVAL \nC.MAXVAL \nD.MINVAL",
         "answer": "A",
         "solution": "",
         "id": "Oracle Database-377",
