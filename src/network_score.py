@@ -23,11 +23,18 @@ def trim(s):
             break
     return s[b:e] if f == 1 else ""
 
+def unpack(s):
+    return list(s)
+
+def flatten(l):
+    return [x for xs in l for x in xs]
+
 def extract(s):
     for i, c in enumerate(s):
         if not c.isalpha() and c != " " and c != ",":
-            return list(filter(None, [trim(x) for x in [x.strip() for x in s[:i].split(",")]]))
-    return list(filter(None, [trim(x) for x in [x.strip() for x in s.split(",")]]))
+            r = list(filter(None, [trim(x) for x in [x.strip() for x in s[:i].split(",")]]))
+    r = list(filter(None, [trim(x) for x in [x.strip() for x in s.split(",")]]))
+    return flatten([unpack(x) for x in r])
 
 def format_sc(l):
     return list(filter(all_upper, [extract(trim(x)) for x in l]))
@@ -80,13 +87,14 @@ if __name__ == "__main__":
     en = 0
     cot = 1
     noq = 1
+    shot = 3
     model = "gemma-7b-it"
 
     with open(f"data/test/Wired Network {'English' if en == 1 else 'Chinese'}.json", encoding="utf-8") as f:
         data = json.load(f)
 
-    ss = f"few{'_naive' if cot == 0 and noq == 1 else ''}{'_cot' if cot == 1 else ''}" \
-        f"{'_self_con' if noq > 1 else ''}"
+    ss = f"{'few' if shot == 3 else 'zero'}{'_naive' if cot == 0 and noq == 1 else ''}" \
+        f"{'_cot' if cot == 1 else ''}{'_self_con' if noq > 1 else ''}"
     filename = f"Wired Network {'English' if en == 1 else 'Chinese'} by {model} {ss}.json"
 
     with open(f"data/response/{filename}", encoding="utf-8") as f:
@@ -96,7 +104,7 @@ if __name__ == "__main__":
 
     result = []
     response_map = {}
-    format = format_sc if cot == 0 else (format_cot if en == 1 else format_cot_cn)
+    format = format_sc if cot == 0 or shot == 0 else (format_cot if en == 1 else format_cot_cn)
     for item in response:
         ans = most_common(format(item["response"]))
         response_map.update({item["id"]: set(ans)})

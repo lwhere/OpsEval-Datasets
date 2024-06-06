@@ -11,6 +11,7 @@ client = Groq(
 en = 1
 cot = 1
 noq = 5
+shot = 3
 model = "gemma-7b-it"
 
 with open(f"data/test/Wired Network {'English' if en == 1 else 'Chinese'}.json", encoding="utf-8") as f:
@@ -20,7 +21,7 @@ if not os.path.exists("data/response"):
     os.makedirs("data/response")
 
 with open(f"data/response/Wired Network {'English' if en == 1 else 'Chinese'} by {model} "
-          f"few{'_naive' if cot == 0 and noq == 1 else ''}{'_cot' if cot == 1 else ''}"
+          f"{'few' if shot == 3 else 'zero'}{'_naive' if cot == 0 and noq == 1 else ''}{'_cot' if cot == 1 else ''}"
           f"{'_self_con' if noq > 1 else ''}.json", "a", encoding="utf-8") as f:
     f.write("[\n")
     for index, item in tqdm(enumerate(data), total=len(data)):
@@ -299,9 +300,57 @@ with open(f"data/response/Wired Network {'English' if en == 1 else 'Chinese'} by
                             }
                         ],
                         model = model,
+                    ) if shot == 3 else client.chat.completions.create(
+                        messages = [
+                            {
+                                "role": "user",
+                                "content": f"Here is a choice question. \"{question}\" "
+                                    "Give the answer. Letters only, separated by comma (A, B, C, etc.), "
+                                    "without answer contents or explanations."
+                                    if en == 1 else
+                                    f"这是一个选择题。\"{question}\" "
+                                    "给出答案，仅包含逗号分隔的字母，不包含答案内容或其他解释。",
+                            }
+                        ] if cot == 0 else [
+                            {
+                                "role": "user",
+                                "content": f"Here is a choice question. \"{question}\" Think step by step."
+                                    "Give the answer. Letters only, separated by comma (A, B, C, etc.), "
+                                    "without answer contents or explanations."
+                                    if en == 1 else
+                                    f"这是一个选择题。\"{question}\" 展示推理过程。"
+                                    "给出答案，仅包含逗号分隔的字母，不包含答案内容或其他解释。",
+                            }
+                        ],
+                        model = model,
                     )
-                    response.append(chat_completion.choices[0].message.content)
-                except:
+                    content = chat_completion.choices[0].message.content
+                    if shot == 0 and cot == 1:
+                        chat_completion = client.chat.completions.create(
+                            messages = [
+                                {
+                                    "role": "user",
+                                    "content": f"Here is a choice question. \"{question}\" Think step by step."
+                                        if en == 1 else f"这是一个选择题。\"{question}\" 展示推理过程。",
+                                },
+                                {
+                                    "role": "assistant",
+                                    "content": content,
+                                },
+                                {
+                                    "role": "user",
+                                    "content": f"So what is the answer?."
+                                        "(Give the answer. Letters only, separated by comma A, B, C, etc., "
+                                        "without answer contents or explanations.)"
+                                        if en == 1 else
+                                        f"所以答案是什么？（给出答案，仅包含逗号分隔的字母，不包含答案内容或其他解释。）",
+                                }
+                            ],
+                            model = model,
+                        )
+                        content = chat_completion.choices[0].message.content
+                    response.append(content)
+                except Exception as e:
                     continue
                 break
         result = {"id": item["id"], "response": response}
