@@ -4,8 +4,6 @@
 
 Please split `data/test/Wired Network.json` to `data/test/Wired Network English.json` and `data/test/Wired Network Chinese.json` before executing the script.
 
-3-shot is used for prompting.
-
 ### Parameters
 - `en`: Language. `1` for `Wired Network English.json`, `0` for `Wired Network Chinese.json`.
 - `cot`: Chain-of-thought. `1` for using CoT, `0` otherwise.
