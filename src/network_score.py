@@ -5,6 +5,9 @@ def all_upper(l):
     for x in l:
         if not x.isupper() or not x.isascii():
             return False
+        for c in x:
+            if ord(c) > 71:
+                return False
     return True
 
 def trim(s):
