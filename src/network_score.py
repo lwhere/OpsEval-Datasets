@@ -1,4 +1,5 @@
 import os
+import re
 import json
 
 def all_upper(l):
@@ -6,7 +7,7 @@ def all_upper(l):
         if not x.isupper() or not x.isascii():
             return False
         for c in x:
-            if ord(c) > 71:
+            if ord(c) > 73:
                 return False
     return True
 
@@ -76,6 +77,21 @@ def format_cot_cn(l):
         return ""
     return list(filter(all_upper, [extract(trim(find(x))) for x in l]))
 
+def format_json(l, default_formatter):
+    def parse(s):
+        try:
+            m = re.findall(r"{.*?}", s)
+            for i in m:
+                a = json.loads(i)
+                for k in a:
+                    if "answer" in k:
+                        return extract(a[k])
+            return default_formatter([s])[0]
+        except:
+            pass
+        return []
+    return list(filter(all_upper, [parse(x) for x in l]))
+
 def most_common(l):
     if not l:
         return []
@@ -92,6 +108,7 @@ if __name__ == "__main__":
     noq = 1
     shot = 3
     model = "gemma-7b-it"
+    structure = "json"
 
     with open(f"data/test/Wired Network {'English' if en == 1 else 'Chinese'}.json", encoding="utf-8") as f:
         data = json.load(f)
@@ -109,7 +126,10 @@ if __name__ == "__main__":
     response_map = {}
     format = format_sc if cot == 0 or shot == 0 else (format_cot if en == 1 else format_cot_cn)
     for item in response:
-        ans = most_common(format(item["response"]))
+        if structure == "json":
+            ans = most_common(format_json(item["response"], format))
+        else:
+            ans = most_common(format(item["response"]))
         response_map.update({item["id"]: set(ans)})
         result.append(dict(item, **{"response": ans}))
 
