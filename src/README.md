@@ -23,3 +23,9 @@ Used with `network_run.py` to match answers and calculate scores. Same parameter
 |------|------|------|------|------|------|------|------|------|------|
 | Models | Naïve | SC | CoT | CoT+SC | Naïve | SC | CoT | CoT+SC | Best Score |
 | Gemma-7B-IT | 21.05 | 20.54 | 12.58 | 12.71 | 49.94 | 50.19 | 47.11 | 47.88 | 50.19 |
+
+### Wired Network Operations (Chinese)
+| | Zero-shot | | | | 3-shot | | | | |
+|------|------|------|------|------|------|------|------|------|------|
+| Models | Naïve | SC | CoT | CoT+SC | Naïve | SC | CoT | CoT+SC | Best Score |
+| Gemma-7B-IT |  |  |  |  | 40.56 |  | 36.20 |  |  |
